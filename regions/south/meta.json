@@ -1,0 +1,790 @@
+{
+ "id": "south",
+ "origin": [
+  31.25,
+  35.2
+ ],
+ "k": [
+  95168.78944331242,
+  110574
+ ],
+ "height": "m = (R*256+G)/10 - 500; B = класс маски",
+ "classes": {
+  "own": [
+   1,
+   4,
+   5,
+   6
+  ],
+  "sea": 3,
+  "closed": [
+   0,
+   2
+  ]
+ },
+ "base": {
+  "x0": -30454.01262186,
+  "z0": -31712.269363200132,
+  "cell": 60.0,
+  "w": 1067,
+  "h": 1027,
+  "png": "base.png",
+  "jpg": "base.jpg"
+ },
+ "details": [
+  {
+   "x0": 10497.0,
+   "z0": -27125.0,
+   "cell": 30.0,
+   "w": 326,
+   "h": 387,
+   "png": "detail-0.png",
+   "jpg": "detail-0.jpg"
+  },
+  {
+   "x0": 9229.0,
+   "z0": -2812.0,
+   "cell": 30.0,
+   "w": 301,
+   "h": 301,
+   "png": "detail-1.png",
+   "jpg": "detail-1.jpg"
+  },
+  {
+   "x0": -3673.0,
+   "z0": -12992.0,
+   "cell": 30.0,
+   "w": 393,
+   "h": 387,
+   "png": "detail-2.png",
+   "jpg": "detail-2.jpg"
+  },
+  {
+   "x0": -20796.0,
+   "z0": -10547.0,
+   "cell": 30.0,
+   "w": 301,
+   "h": 301,
+   "png": "detail-3.png",
+   "jpg": "detail-3.jpg"
+  }
+ ],
+ "sites": [
+  {
+   "id": "tseruya",
+   "name": {
+    "ru": "Стена Хар-Цруя (Эйн-Геди)",
+    "en": "Har Tseruya wall (Ein Gedi)",
+    "he": "מצוק הר צרויה (עין גדי)"
+   },
+   "face": 95,
+   "hg": true,
+   "notes": "Стена над Мёртвым морем: перепад ~650 м. Днём с моря дует бриз с востока — прямо в стену (ERA5). Место подобрано по рельефу (Андрей: там не летал).",
+   "maxBase": 1180,
+   "x": 15837.0,
+   "z": -20047.1,
+   "thermals": [],
+   "landings": [
+    {
+     "id": "beach",
+     "name": {
+      "ru": "пляж у шоссе 90",
+      "en": "beach by Route 90",
+      "he": "חוף ליד כביש 90"
+     },
+     "x": 17161.8,
+     "z": -20011.7
+    }
+   ],
+   "tasks": [
+    {
+     "id": "wall-north",
+     "name": {
+      "ru": "Вдоль стены на север и обратно",
+      "en": "Along the wall north and back",
+      "he": "לאורך המצוק צפונה וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "mitzpe-gedi",
+       "name": {
+        "ru": "Мицпе Эйн-Геди",
+        "en": "Mitzpe Ein Gedi",
+        "he": "מצפה עין גדי"
+       },
+       "r": 600,
+       "x": 16977.2,
+       "z": -23718.1
+      },
+      {
+       "id": "kite",
+       "name": {
+        "ru": "Древний «загон» у Эйн-Геди",
+        "en": "Ein Gedi desert kite",
+        "he": "עפיפון עין גדי"
+       },
+       "r": 600,
+       "x": 17383.5,
+       "z": -25516.1
+      }
+     ],
+     "finish": "beach"
+    },
+    {
+     "id": "wall-south",
+     "name": {
+      "ru": "Вдоль стены на юг и обратно",
+      "en": "Along the wall south and back",
+      "he": "לאורך המצוק דרומה וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "n-mishmar",
+       "name": {
+        "ru": "Нахаль-Мишмар",
+        "en": "Nahal Mishmar",
+        "he": "נחל משמר"
+       },
+       "r": 700,
+       "x": 17157.0,
+       "z": -14418.8
+      },
+      {
+       "id": "mishmar",
+       "name": {
+        "ru": "Эйн-Мишмар",
+        "en": "Ein Mishmar",
+        "he": "עין משמר"
+       },
+       "r": 700,
+       "x": 12285.3,
+       "z": -15020.4
+      }
+     ],
+     "finish": "beach"
+    },
+    {
+     "id": "to-masada",
+     "name": {
+      "ru": "На юг к Масаде (по плато)",
+      "en": "South to Masada (over the plateau)",
+      "he": "דרומה למצדה (מעל הרמה)"
+     },
+     "kinds": [
+      "weak"
+     ],
+     "points": [
+      {
+       "id": "mishmar",
+       "name": {
+        "ru": "Эйн-Мишмар",
+        "en": "Ein Mishmar",
+        "he": "עין משמר"
+       },
+       "r": 700,
+       "x": 12285.3,
+       "z": -15020.4
+      },
+      {
+       "id": "masada-w",
+       "name": {
+        "ru": "Масада, западный лагерь",
+        "en": "Masada west camp",
+        "he": "מצדה מערב"
+       },
+       "r": 500,
+       "x": 13866.1,
+       "z": -7223.8
+      }
+     ],
+     "finish": null
+    }
+   ]
+  },
+  {
+   "id": "isiyyim",
+   "name": {
+    "ru": "Маале Иссиим (над Эйн-Геди)",
+    "en": "Ma'ale Isiyyim (above Ein Gedi)",
+    "he": "ראש מעלה איסיים"
+   },
+   "face": 110,
+   "hg": true,
+   "notes": "Обрыв у дороги над Эйн-Геди, перепад ~570 м; ветер с моря (ВЮВ).",
+   "maxBase": 1180,
+   "x": 15035.7,
+   "z": -22635.6,
+   "thermals": [],
+   "landings": [
+    {
+     "id": "gedi-beach",
+     "name": {
+      "ru": "у Эйн-Геди, у шоссе 90",
+      "en": "by Ein Gedi, Route 90",
+      "he": "ליד עין גדי, כביש 90"
+     },
+     "x": 18165.8,
+     "z": -21117.4
+    }
+   ],
+   "tasks": [
+    {
+     "id": "kite-return",
+     "name": {
+      "ru": "К древнему «загону» и обратно",
+      "en": "To the desert kite and back",
+      "he": "לעפיפון וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "kite",
+       "name": {
+        "ru": "Древний «загон» у Эйн-Геди",
+        "en": "Ein Gedi desert kite",
+        "he": "עפיפון עין גדי"
+       },
+       "r": 600,
+       "x": 17383.5,
+       "z": -25516.1
+      }
+     ],
+     "finish": "gedi-beach"
+    },
+    {
+     "id": "mishmar-return",
+     "name": {
+      "ru": "К Эйн-Мишмару и обратно",
+      "en": "To Ein Mishmar and back",
+      "he": "לעין משמר וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "mishmar",
+       "name": {
+        "ru": "Эйн-Мишмар",
+        "en": "Ein Mishmar",
+        "he": "עין משמר"
+       },
+       "r": 700,
+       "x": 12285.3,
+       "z": -15020.4
+      },
+      {
+       "id": "ein-gedi",
+       "name": {
+        "ru": "Эйн-Геди",
+        "en": "Ein Gedi",
+        "he": "עין גדי"
+       },
+       "r": 700,
+       "x": 17589.1,
+       "z": -22380.2
+      }
+     ],
+     "finish": "gedi-beach"
+    }
+   ]
+  },
+  {
+   "id": "yair",
+   "name": {
+    "ru": "Маале Яир (над Эйн-Бокеком)",
+    "en": "Ma'ale Yair (above Ein Bokek)",
+    "he": "ראש מעלה יאיר (עין בוקק)"
+   },
+   "face": 65,
+   "hg": true,
+   "notes": "Смотровая площадка над Эйн-Бокеком, перепад ~450 м, 13 км от Арада; ветер с востока-северо-востока.",
+   "maxBase": 1180,
+   "x": 13758.6,
+   "z": 1688.5,
+   "thermals": [],
+   "landings": [
+    {
+     "id": "bokek",
+     "name": {
+      "ru": "у Эйн-Бокека",
+      "en": "by Ein Bokek",
+      "he": "ליד עין בוקק"
+     },
+     "x": 15628.6,
+     "z": 1362.3
+    }
+   ],
+   "tasks": [
+    {
+     "id": "zohar-return",
+     "name": {
+      "ru": "К Мецад-Зоару и обратно",
+      "en": "To Mezad Zohar and back",
+      "he": "למצד זוהר וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "mezad-zohar",
+       "name": {
+        "ru": "Мецад-Зоар",
+        "en": "Mezad Zohar",
+        "he": "מצד זוהר"
+       },
+       "r": 700,
+       "x": 13936.5,
+       "z": 10926.9
+      }
+     ],
+     "finish": "bokek"
+    },
+    {
+     "id": "gozal-tri",
+     "name": {
+      "ru": "Гозаль — Зоар — Эйн-Бокек",
+      "en": "Gozal — Zohar — Ein Bokek",
+      "he": "גוזל — זוהר — עין בוקק"
+     },
+     "kinds": [
+      "weak"
+     ],
+     "points": [
+      {
+       "id": "gozal",
+       "name": {
+        "ru": "Мецад-Гозаль",
+        "en": "Mezad Gozal",
+        "he": "מצד גוזל"
+       },
+       "r": 700,
+       "x": 17859.4,
+       "z": 13307.6
+      },
+      {
+       "id": "mezad-zohar",
+       "name": {
+        "ru": "Мецад-Зоар",
+        "en": "Mezad Zohar",
+        "he": "מצד זוהר"
+       },
+       "r": 700,
+       "x": 13936.5,
+       "z": 10926.9
+      }
+     ],
+     "finish": "bokek"
+    },
+    {
+     "id": "to-arad",
+     "name": {
+      "ru": "По ветру к Араду",
+      "en": "Downwind to Arad",
+      "he": "עם הרוח לערד"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "hatrurim",
+       "name": {
+        "ru": "Мецад-Хатрурим",
+        "en": "Mezad Hatrurim",
+        "he": "מצד חתרורים"
+       },
+       "r": 700,
+       "x": 10042.2,
+       "z": 2970.0
+      },
+      {
+       "id": "zohar-head",
+       "name": {
+        "ru": "Рош-Зоар",
+        "en": "Rosh Zohar",
+        "he": "ראש זוהר"
+       },
+       "r": 700,
+       "x": 3609.8,
+       "z": 1989.2
+      },
+      {
+       "id": "arad-airfield",
+       "name": {
+        "ru": "аэродром Арада",
+        "en": "Arad airfield",
+        "he": "מנחת ערד"
+       },
+       "r": 600,
+       "x": -1043.0,
+       "z": 2303.3
+      }
+     ],
+     "finish": null
+    }
+   ]
+  },
+  {
+   "id": "zman",
+   "name": {
+    "ru": "Склон у Зман-Мидбара (Арад)",
+    "en": "Zman Midbar slope (Arad)",
+    "he": "מדרון זמן מדבר (ערד)"
+   },
+   "face": 290,
+   "hg": true,
+   "notes": "Холм в 6 км к северу от Арада, склон на запад-северо-запад, перепад ~130–150 м; весной и летом дует с запада.",
+   "x": 3694.5,
+   "z": -6020.8,
+   "thermals": [],
+   "landings": [
+    {
+     "id": "field",
+     "name": {
+      "ru": "поле у дороги",
+      "en": "field by the road",
+      "he": "שדה ליד הכביש"
+     },
+     "x": 1564.6,
+     "z": -6437.6
+    }
+   ],
+   "tasks": [
+    {
+     "id": "omer-moav",
+     "name": {
+      "ru": "Омер — Моав и обратно",
+      "en": "Omer — Moav and back",
+      "he": "עומר — מואב וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "omer",
+       "name": {
+        "ru": "Мицпор Омер",
+        "en": "Omer lookout",
+        "he": "מצפור עומר"
+       },
+       "r": 600,
+       "x": 4011.4,
+       "z": -4417.4
+      },
+      {
+       "id": "moav",
+       "name": {
+        "ru": "Мицпе Моав",
+        "en": "Moav lookout",
+        "he": "מצפה מואב"
+       },
+       "r": 600,
+       "x": 4018.0,
+       "z": -1169.9
+      }
+     ],
+     "finish": "field"
+    },
+    {
+     "id": "tel-arad",
+     "name": {
+      "ru": "К Тель-Араду и обратно",
+      "en": "To Tel Arad and back",
+      "he": "לתל ערד וחזרה"
+     },
+     "kinds": [
+      "weak"
+     ],
+     "points": [
+      {
+       "id": "tel-arad",
+       "name": {
+        "ru": "Тель-Арад",
+        "en": "Tel Arad",
+        "he": "תל ערד"
+       },
+       "r": 700,
+       "x": -7090.1,
+       "z": -3307.3
+      }
+     ],
+     "finish": "field"
+    },
+    {
+     "id": "to-dead-sea",
+     "name": {
+      "ru": "По ветру к Мёртвому морю",
+      "en": "Downwind to the Dead Sea",
+      "he": "עם הרוח לים המלח"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "nokdim",
+       "name": {
+        "ru": "Кфар-ха-Нокдим",
+        "en": "Kfar HaNokdim",
+        "he": "כפר הנוקדים"
+       },
+       "r": 600,
+       "x": 6594.2,
+       "z": -6115.8
+      },
+      {
+       "id": "masada-w",
+       "name": {
+        "ru": "Масада, западный лагерь",
+        "en": "Masada west camp",
+        "he": "מצדה מערב"
+       },
+       "r": 500,
+       "x": 13866.1,
+       "z": -7223.8
+      }
+     ],
+     "finish": null
+    }
+   ]
+  },
+  {
+   "id": "tseelim",
+   "name": {
+    "ru": "Хар-Цеелим (Арад)",
+    "en": "Har Tse'elim (Arad)",
+    "he": "הר צאלים (ערד)"
+   },
+   "face": 85,
+   "hg": true,
+   "notes": "Склон на восток в 8 км к северу от Арада, перепад ~220 м; осенью и зимой по утрам дует с востока-северо-востока.",
+   "x": 770.9,
+   "z": -8331.8,
+   "thermals": [],
+   "landings": [
+    {
+     "id": "field",
+     "name": {
+      "ru": "поле внизу",
+      "en": "field below",
+      "he": "שדה למטה"
+     },
+     "x": 2833.2,
+     "z": -8863.6
+    }
+   ],
+   "tasks": [
+    {
+     "id": "arad-tri",
+     "name": {
+      "ru": "Арад — Рош-Зоар и обратно",
+      "en": "Arad — Rosh Zohar and back",
+      "he": "ערד — ראש זוהר וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "arad",
+       "name": {
+        "ru": "Арад",
+        "en": "Arad",
+        "he": "ערד"
+       },
+       "r": 900,
+       "x": 1387.6,
+       "z": -1240.6
+      },
+      {
+       "id": "zohar-head",
+       "name": {
+        "ru": "Рош-Зоар",
+        "en": "Rosh Zohar",
+        "he": "ראש זוהר"
+       },
+       "r": 700,
+       "x": 3609.8,
+       "z": 1989.2
+      }
+     ],
+     "finish": "field"
+    },
+    {
+     "id": "to-tel-arad",
+     "name": {
+      "ru": "По ветру к Тель-Араду и к аэродрому",
+      "en": "Downwind to Tel Arad and the airfield",
+      "he": "עם הרוח לתל ערד ולמנחת"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "tel-arad",
+       "name": {
+        "ru": "Тель-Арад",
+        "en": "Tel Arad",
+        "he": "תל ערד"
+       },
+       "r": 500,
+       "x": -7090.1,
+       "z": -3307.3
+      },
+      {
+       "id": "arad-airfield",
+       "name": {
+        "ru": "аэродром Арада",
+        "en": "Arad airfield",
+        "he": "מנחת ערד"
+       },
+       "r": 600,
+       "x": -1043.0,
+       "z": 2303.3
+      }
+     ],
+     "finish": null
+    }
+   ]
+  },
+  {
+   "id": "anim",
+   "name": {
+    "ru": "Хар-Аним (Атир)",
+    "en": "Har Anim (Atir)",
+    "he": "הרי ענים (עתיר)"
+   },
+   "face": 290,
+   "hg": true,
+   "notes": "Холм в 18 км к западу от Арада, склон на запад-северо-запад, перепад ~160 м.",
+   "x": -16366.2,
+   "z": -6087.1,
+   "thermals": [],
+   "landings": [
+    {
+     "id": "field",
+     "name": {
+      "ru": "поле у дороги",
+      "en": "field by the road",
+      "he": "שדה ליד הכביש"
+     },
+     "x": -19240.3,
+     "z": -6959.5
+    }
+   ],
+   "tasks": [
+    {
+     "id": "hura-return",
+     "name": {
+      "ru": "К Хуре и обратно",
+      "en": "To Hura and back",
+      "he": "לחורה וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "hura",
+       "name": {
+        "ru": "Хура",
+        "en": "Hura",
+        "he": "חורה"
+       },
+       "r": 900,
+       "x": -24942.8,
+       "z": -5224.6
+      }
+     ],
+     "finish": "field"
+    },
+    {
+     "id": "amasa-return",
+     "name": {
+      "ru": "К Хар-Амасе и обратно",
+      "en": "To Har Amasa and back",
+      "he": "להר עמשא וחזרה"
+     },
+     "kinds": [
+      "weak"
+     ],
+     "points": [
+      {
+       "id": "amasa",
+       "name": {
+        "ru": "Хар-Амаса",
+        "en": "Har Amasa",
+        "he": "הר עמשא"
+       },
+       "r": 600,
+       "x": -9308.5,
+       "z": -10241.4
+      }
+     ],
+     "finish": "field"
+    },
+    {
+     "id": "to-arad",
+     "name": {
+      "ru": "По ветру к Араду",
+      "en": "Downwind to Arad",
+      "he": "עם הרוח לערד"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "points": [
+      {
+       "id": "tel-arad",
+       "name": {
+        "ru": "Тель-Арад",
+        "en": "Tel Arad",
+        "he": "תל ערד"
+       },
+       "r": 500,
+       "x": -7090.1,
+       "z": -3307.3
+      },
+      {
+       "id": "arad",
+       "name": {
+        "ru": "Арад",
+        "en": "Arad",
+        "he": "ערד"
+       },
+       "r": 900,
+       "x": 1387.6,
+       "z": -1240.6
+      }
+     ],
+     "finish": null
+    }
+   ]
+  }
+ ],
+ "sources": "Copernicus DEM GLO-30 (© DLR/Airbus, Copernicus); Sentinel-2 cloudless 2016 by EOX (CC BY-SA 4.0); © OpenStreetMap contributors (ODbL)"
+}
