@@ -1,0 +1,1959 @@
+{
+ "id": "friuli",
+ "origin": [
+  46.45,
+  12.9
+ ],
+ "k": [
+  76698.0686918996,
+  110574
+ ],
+ "height": "m = (R*256+G)/10 - 500; B = класс маски",
+ "classes": {
+  "own": [
+   1,
+   4,
+   5,
+   6
+  ],
+  "sea": 3,
+  "closed": [
+   0,
+   2
+  ]
+ },
+ "base": {
+  "x0": -69028.26182270967,
+  "z0": -55287.0,
+  "cell": 120.0,
+  "w": 1151,
+  "h": 922,
+  "png": "base.png",
+  "jpg": "base.jpg"
+ },
+ "details": [
+  {
+   "x0": -11637.0,
+   "z0": 19734.0,
+   "cell": 30.0,
+   "w": 301,
+   "h": 301,
+   "png": "detail-0.png",
+   "jpg": "detail-0.jpg"
+  },
+  {
+   "x0": 16720.0,
+   "z0": 14942.0,
+   "cell": 30.0,
+   "w": 301,
+   "h": 301,
+   "png": "detail-1.png",
+   "jpg": "detail-1.jpg"
+  },
+  {
+   "x0": -2498.0,
+   "z0": -15219.0,
+   "cell": 30.0,
+   "w": 301,
+   "h": 301,
+   "png": "detail-2.png",
+   "jpg": "detail-2.jpg"
+  }
+ ],
+ "sites": [
+  {
+   "id": "valinis",
+   "name": {
+    "ru": "Монте-Валинис",
+    "en": "Monte Valinis",
+    "he": "מונטה ואליניס"
+   },
+   "face": 180,
+   "hg": true,
+   "notes": "Старт ЧМ 2019 (D01) и Pre-Worlds 2018 (T02): 980 м, на юг над равниной Фриули; посадка — Травезио. Ветер на старте ЮВ–ЮЗ.",
+   "wind": "юго-восток — юго-запад",
+   "x": -7137.5,
+   "z": 24234.5,
+   "thermals": [
+    {
+     "x": -7372.2,
+     "z": 24173.7
+    },
+    {
+     "x": -6971.9,
+     "z": 24512.0
+    },
+    {
+     "x": -6275.4,
+     "z": 24956.6
+    }
+   ],
+   "landings": [
+    {
+     "id": "travesio",
+     "name": {
+      "ru": "посадка Травезио",
+      "en": "Travesio LZ",
+      "he": "נחיתת טרווזיו"
+     },
+     "x": -3365.5,
+     "z": 28043.8
+    }
+   ],
+   "tasks": [
+    {
+     "id": "wc2019-t1",
+     "name": {
+      "ru": "ЧМ 2019 · задание 1: Montecavallo Tre — Diga Cellina — Gemona Incrocio — Goal Bordano",
+      "en": "Worlds 2019 · task 1: Montecavallo Tre — Diga Cellina — Gemona Incrocio — Goal Bordano",
+      "he": "אליפות העולם 2019 · משימה 1: Montecavallo Tre — Diga Cellina — Gemona Incrocio — Goal Bordano"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 3000,
+     "points": [
+      {
+       "id": "m03-0",
+       "name": {
+        "ru": "Montecavallo Tre",
+        "en": "Montecavallo Tre",
+        "he": "Montecavallo Tre"
+       },
+       "r": 8000,
+       "x": -36921.7,
+       "z": 48621.6
+      },
+      {
+       "id": "b58-1",
+       "name": {
+        "ru": "Diga Cellina",
+        "en": "Diga Cellina",
+        "he": "Diga Cellina"
+       },
+       "r": 1000,
+       "x": -18897.6,
+       "z": 31052.5
+      },
+      {
+       "id": "z11-2",
+       "name": {
+        "ru": "Gemona Incrocio",
+        "en": "Gemona Incrocio",
+        "he": "Gemona Incrocio"
+       },
+       "r": 1000,
+       "x": 16051.4,
+       "z": 18725.7
+      },
+      {
+       "id": "a02-3",
+       "name": {
+        "ru": "Goal Bordano",
+        "en": "Goal Bordano",
+        "he": "Goal Bordano"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 1, 2019-07-15, 86.3 км, ворота 14:30, 15:00"
+    },
+    {
+     "id": "wc2019-t2",
+     "name": {
+      "ru": "ЧМ 2019 · задание 2: Pala Altei — T Off San Simeone — Landing Camp Gabrje — Goal Bordano",
+      "en": "Worlds 2019 · task 2: Pala Altei — T Off San Simeone — Landing Camp Gabrje — Goal Bordano",
+      "he": "אליפות העולם 2019 · משימה 2: Pala Altei — T Off San Simeone — Landing Camp Gabrje — Goal Bordano"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 4000,
+     "points": [
+      {
+       "id": "b06-0",
+       "name": {
+        "ru": "Pala Altei",
+        "en": "Pala Altei",
+        "he": "Pala Altei"
+       },
+       "r": 2000,
+       "x": -23158.2,
+       "z": 32373.9
+      },
+      {
+       "id": "d15-1",
+       "name": {
+        "ru": "T Off San Simeone",
+        "en": "T Off San Simeone",
+        "he": "T Off San Simeone"
+       },
+       "r": 6000,
+       "x": 15467.7,
+       "z": 13268.9
+      },
+      {
+       "id": "l15-2",
+       "name": {
+        "ru": "Landing Camp Gabrje",
+        "en": "Landing Camp Gabrje",
+        "he": "Landing Camp Gabrje"
+       },
+       "r": 2000,
+       "x": 29311.7,
+       "z": 17722.8
+      },
+      {
+       "id": "b41-3",
+       "name": {
+        "ru": "Casera Chiarzo-",
+        "en": "Casera Chiarzo-",
+        "he": "Casera Chiarzo-"
+       },
+       "r": 8000,
+       "x": -6881.4,
+       "z": -214.5
+      },
+      {
+       "id": "b54-4",
+       "name": {
+        "ru": "Plauris Bivacco Coi",
+        "en": "Plauris Bivacco Coi",
+        "he": "Plauris Bivacco Coi"
+       },
+       "r": 400,
+       "x": 20346.5,
+       "z": 11395.8
+      },
+      {
+       "id": "a22-5",
+       "name": {
+        "ru": "Goal Avios Avro",
+        "en": "Goal Avios Avro",
+        "he": "Goal Avios Avro"
+       },
+       "r": 3000,
+       "x": 13298.7,
+       "z": 23729.2
+      },
+      {
+       "id": "a02-6",
+       "name": {
+        "ru": "Goal Bordano",
+        "en": "Goal Bordano",
+        "he": "Goal Bordano"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 2, 2019-07-16, 135.8 км, ворота 14:15, 14:40"
+    },
+    {
+     "id": "wc2019-t3",
+     "name": {
+      "ru": "ЧМ 2019 · задание 3: Cividale Ponte Del Diavolo — Gemona Incrocio — Goal Bordano",
+      "en": "Worlds 2019 · task 3: Cividale Ponte Del Diavolo — Gemona Incrocio — Goal Bordano",
+      "he": "אליפות העולם 2019 · משימה 3: Cividale Ponte Del Diavolo — Gemona Incrocio — Goal Bordano"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5500,
+     "points": [
+      {
+       "id": "b51-0",
+       "name": {
+        "ru": "Cividale Ponte Del Diavolo",
+        "en": "Cividale Ponte Del Diavolo",
+        "he": "Cividale Ponte Del Diavolo"
+       },
+       "r": 5000,
+       "x": 40776.5,
+       "z": 39594.3
+      },
+      {
+       "id": "z11-1",
+       "name": {
+        "ru": "Gemona Incrocio",
+        "en": "Gemona Incrocio",
+        "he": "Gemona Incrocio"
+       },
+       "r": 400,
+       "x": 16051.4,
+       "z": 18725.7
+      },
+      {
+       "id": "a02-2",
+       "name": {
+        "ru": "Goal Bordano",
+        "en": "Goal Bordano",
+        "he": "Goal Bordano"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 3, 2019-07-17, 75.3 км, ворота 14:15, 14:40, 15:05"
+    },
+    {
+     "id": "wc2019-t5",
+     "name": {
+      "ru": "ЧМ 2019 · задание 5: Cividale Ponte Del Diavolo — Pala — Porzus Antenne — Goal Bordano",
+      "en": "Worlds 2019 · task 5: Cividale Ponte Del Diavolo — Pala — Porzus Antenne — Goal Bordano",
+      "he": "אליפות העולם 2019 · משימה 5: Cividale Ponte Del Diavolo — Pala — Porzus Antenne — Goal Bordano"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 3000,
+     "points": [
+      {
+       "id": "b51-0",
+       "name": {
+        "ru": "Cividale Ponte Del Diavolo",
+        "en": "Cividale Ponte Del Diavolo",
+        "he": "Cividale Ponte Del Diavolo"
+       },
+       "r": 10000,
+       "x": 40776.5,
+       "z": 39594.3
+      },
+      {
+       "id": "b72-1",
+       "name": {
+        "ru": "Pala",
+        "en": "Pala",
+        "he": "Pala"
+       },
+       "r": 10000,
+       "x": 1662.0,
+       "z": 22882.2
+      },
+      {
+       "id": "b52-2",
+       "name": {
+        "ru": "Porzus Antenne",
+        "en": "Porzus Antenne",
+        "he": "Porzus Antenne"
+       },
+       "r": 8000,
+       "x": 34577.8,
+       "z": 29516.6
+      },
+      {
+       "id": "z11-3",
+       "name": {
+        "ru": "Gemona Incrocio",
+        "en": "Gemona Incrocio",
+        "he": "Gemona Incrocio"
+       },
+       "r": 400,
+       "x": 16051.4,
+       "z": 18725.7
+      },
+      {
+       "id": "a02-4",
+       "name": {
+        "ru": "Goal Bordano",
+        "en": "Goal Bordano",
+        "he": "Goal Bordano"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 5, 2019-07-20, 95.2 км, ворота 13:45, 14:10"
+    },
+    {
+     "id": "wc2019-t9",
+     "name": {
+      "ru": "ЧМ 2019 · задание 9: Pala Altei — Montecavallo Tre — Diga Cellina — Goal Bordano",
+      "en": "Worlds 2019 · task 9: Pala Altei — Montecavallo Tre — Diga Cellina — Goal Bordano",
+      "he": "אליפות העולם 2019 · משימה 9: Pala Altei — Montecavallo Tre — Diga Cellina — Goal Bordano"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 3000,
+     "points": [
+      {
+       "id": "b06-0",
+       "name": {
+        "ru": "Pala Altei",
+        "en": "Pala Altei",
+        "he": "Pala Altei"
+       },
+       "r": 2000,
+       "x": -23158.2,
+       "z": 32373.9
+      },
+      {
+       "id": "m03-1",
+       "name": {
+        "ru": "Montecavallo Tre",
+        "en": "Montecavallo Tre",
+        "he": "Montecavallo Tre"
+       },
+       "r": 6000,
+       "x": -36921.7,
+       "z": 48621.6
+      },
+      {
+       "id": "b58-2",
+       "name": {
+        "ru": "Diga Cellina",
+        "en": "Diga Cellina",
+        "he": "Diga Cellina"
+       },
+       "r": 1000,
+       "x": -18897.6,
+       "z": 31052.5
+      },
+      {
+       "id": "b46-3",
+       "name": {
+        "ru": "Buja Piscina",
+        "en": "Buja Piscina",
+        "he": "Buja Piscina"
+       },
+       "r": 3000,
+       "x": 16638.9,
+       "z": 27766.2
+      },
+      {
+       "id": "a02-4",
+       "name": {
+        "ru": "Goal Bordano",
+        "en": "Goal Bordano",
+        "he": "Goal Bordano"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 9, 2019-07-24, 95.1 км, ворота 14:15, 14:40"
+    },
+    {
+     "id": "pw2018-t1",
+     "name": {
+      "ru": "Pre-Worlds 2018 · задание 1: Cividale Ponte Del Diavolo — Plauris Bivacco Coi — Turnpoint N01 — Goal Bordano [A]",
+      "en": "Pre-Worlds 2018 · task 1: Cividale Ponte Del Diavolo — Plauris Bivacco Coi — Turnpoint N01 — Goal Bordano [A]",
+      "he": "Pre-Worlds 2018 · משימה 1: Cividale Ponte Del Diavolo — Plauris Bivacco Coi — Turnpoint N01 — Goal Bordano [A]"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "a57-0",
+       "name": {
+        "ru": "Cividale Ponte Del Diavolo",
+        "en": "Cividale Ponte Del Diavolo",
+        "he": "Cividale Ponte Del Diavolo"
+       },
+       "r": 4000,
+       "x": 40776.5,
+       "z": 39594.3
+      },
+      {
+       "id": "a54-1",
+       "name": {
+        "ru": "Plauris Bivacco Coi",
+        "en": "Plauris Bivacco Coi",
+        "he": "Plauris Bivacco Coi"
+       },
+       "r": 1000,
+       "x": 20346.5,
+       "z": 11395.8
+      },
+      {
+       "id": "n01-2",
+       "name": {
+        "ru": "Turnpoint N01",
+        "en": "Turnpoint N01",
+        "he": "Turnpoint N01"
+       },
+       "r": 5000,
+       "x": 28066.9,
+       "z": 31399.7
+      },
+      {
+       "id": "a31-3",
+       "name": {
+        "ru": "Fantoni",
+        "en": "Fantoni",
+        "he": "Fantoni"
+       },
+       "r": 400,
+       "x": 14018.9,
+       "z": 23987.9
+      },
+      {
+       "id": "g02-4",
+       "name": {
+        "ru": "Goal Bordano [A]",
+        "en": "Goal Bordano [A]",
+        "he": "Goal Bordano [A]"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune pw2018 task 1, 2018-07-28, 111.6 км, ворота 14:00, 14:30"
+    },
+    {
+     "id": "pw2018-t2",
+     "name": {
+      "ru": "Pre-Worlds 2018 · задание 2: Ponte Ferrovia Cellina — Pedeguarda — Turnpoint 63 — Goal Bordano [A]",
+      "en": "Pre-Worlds 2018 · task 2: Ponte Ferrovia Cellina — Pedeguarda — Turnpoint 63 — Goal Bordano [A]",
+      "he": "Pre-Worlds 2018 · משימה 2: Ponte Ferrovia Cellina — Pedeguarda — Turnpoint 63 — Goal Bordano [A]"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "a07-0",
+       "name": {
+        "ru": "Ponte Ferrovia Cellina",
+        "en": "Ponte Ferrovia Cellina",
+        "he": "Ponte Ferrovia Cellina"
+       },
+       "r": 1500,
+       "x": -17257.1,
+       "z": 32773.0
+      },
+      {
+       "id": "a63-1",
+       "name": {
+        "ru": "Pedeguarda",
+        "en": "Pedeguarda",
+        "he": "Pedeguarda"
+       },
+       "r": 6000,
+       "x": -49892.9,
+       "z": 53135.2
+      },
+      {
+       "id": "b63-2",
+       "name": {
+        "ru": "Turnpoint 63",
+        "en": "Turnpoint 63",
+        "he": "Turnpoint 63"
+       },
+       "r": 400,
+       "x": 16014.6,
+       "z": 17901.9
+      },
+      {
+       "id": "g02-3",
+       "name": {
+        "ru": "Goal Bordano [A]",
+        "en": "Goal Bordano [A]",
+        "he": "Goal Bordano [A]"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune pw2018 task 2, 2018-07-29, 133.7 км, ворота 13:35, 14:05"
+    },
+    {
+     "id": "pw2018-t6",
+     "name": {
+      "ru": "Pre-Worlds 2018 · задание 6: Porzus Antenne — Dall-Ava — Landing Plan Di Palut [A] — Goal Bordano [A]",
+      "en": "Pre-Worlds 2018 · task 6: Porzus Antenne — Dall-Ava — Landing Plan Di Palut [A] — Goal Bordano [A]",
+      "he": "Pre-Worlds 2018 · משימה 6: Porzus Antenne — Dall-Ava — Landing Plan Di Palut [A] — Goal Bordano [A]"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "a56-0",
+       "name": {
+        "ru": "Porzus Antenne",
+        "en": "Porzus Antenne",
+        "he": "Porzus Antenne"
+       },
+       "r": 7000,
+       "x": 34577.8,
+       "z": 29516.6
+      },
+      {
+       "id": "a66-1",
+       "name": {
+        "ru": "Dall-Ava",
+        "en": "Dall-Ava",
+        "he": "Dall-Ava"
+       },
+       "r": 2000,
+       "x": 8245.0,
+       "z": 31605.4
+      },
+      {
+       "id": "l09-2",
+       "name": {
+        "ru": "Landing Plan Di Palut [A]",
+        "en": "Landing Plan Di Palut [A]",
+        "he": "Landing Plan Di Palut [A]"
+       },
+       "r": 2000,
+       "x": 25118.6,
+       "z": 24910.1
+      },
+      {
+       "id": "a32-3",
+       "name": {
+        "ru": "Peonis",
+        "en": "Peonis",
+        "he": "Peonis"
+       },
+       "r": 3000,
+       "x": 10716.3,
+       "z": 21193.7
+      },
+      {
+       "id": "g02-4",
+       "name": {
+        "ru": "Goal Bordano [A]",
+        "en": "Goal Bordano [A]",
+        "he": "Goal Bordano [A]"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune pw2018 task 6, 2018-08-03, 82.5 км, ворота 14:40, 15:05"
+    },
+    {
+     "id": "pw2018-t7",
+     "name": {
+      "ru": "Pre-Worlds 2018 · задание 7: Take Off Aviano — Take Off Cuarnan — Malga Calupa — Goal Bordano [A]",
+      "en": "Pre-Worlds 2018 · task 7: Take Off Aviano — Take Off Cuarnan — Malga Calupa — Goal Bordano [A]",
+      "he": "Pre-Worlds 2018 · משימה 7: Take Off Aviano — Take Off Cuarnan — Malga Calupa — Goal Bordano [A]"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "t03-0",
+       "name": {
+        "ru": "Take Off Aviano",
+        "en": "Take Off Aviano",
+        "he": "Take Off Aviano"
+       },
+       "r": 3000,
+       "x": -27121.2,
+       "z": 38516.2
+      },
+      {
+       "id": "t06-1",
+       "name": {
+        "ru": "Take Off Cuarnan",
+        "en": "Take Off Cuarnan",
+        "he": "Take Off Cuarnan"
+       },
+       "r": 400,
+       "x": 21220.1,
+       "z": 19442.2
+      },
+      {
+       "id": "a59-2",
+       "name": {
+        "ru": "Malga Calupa",
+        "en": "Malga Calupa",
+        "he": "Malga Calupa"
+       },
+       "r": 2000,
+       "x": 7984.3,
+       "z": 4369.9
+      },
+      {
+       "id": "t06-3",
+       "name": {
+        "ru": "Take Off Cuarnan",
+        "en": "Take Off Cuarnan",
+        "he": "Take Off Cuarnan"
+       },
+       "r": 400,
+       "x": 21220.1,
+       "z": 19442.2
+      },
+      {
+       "id": "a43-4",
+       "name": {
+        "ru": "Buja Piscina",
+        "en": "Buja Piscina",
+        "he": "Buja Piscina"
+       },
+       "r": 2000,
+       "x": 16638.9,
+       "z": 27766.2
+      },
+      {
+       "id": "g02-5",
+       "name": {
+        "ru": "Goal Bordano [A]",
+        "en": "Goal Bordano [A]",
+        "he": "Goal Bordano [A]"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune pw2018 task 7, 2018-08-04, 124.0 км, ворота 13:10, 13:35"
+    }
+   ]
+  },
+  {
+   "id": "cuarnan",
+   "name": {
+    "ru": "Монте-Куарнан (Гемона)",
+    "en": "Monte Cuarnan (Gemona)",
+    "he": "מונטה קוארנן (ג׳מונה)"
+   },
+   "face": 200,
+   "hg": true,
+   "notes": "Старт ЧМ 2019 (D02) и Pre-Worlds 2018 (T06): 1170 м над Гемоной, на юг — юго-запад; посадка Гемона, финиш многих заданий — Бордано.",
+   "wind": "юго-восток — юго-запад",
+   "x": 21220.1,
+   "z": 19442.2,
+   "thermals": [
+    {
+     "x": 21310.6,
+     "z": 19390.3
+    },
+    {
+     "x": 20557.4,
+     "z": 19396.9
+    },
+    {
+     "x": 21834.4,
+     "z": 18945.7
+    }
+   ],
+   "landings": [
+    {
+     "id": "gemona",
+     "name": {
+      "ru": "посадка Гемона",
+      "en": "Gemona LZ",
+      "he": "נחיתת ג׳מונה"
+     },
+     "x": 18471.2,
+     "z": 21746.6
+    },
+    {
+     "id": "bordano",
+     "name": {
+      "ru": "финиш Бордано",
+      "en": "Bordano goal",
+      "he": "גול בורדאנו"
+     },
+     "x": 16362.0,
+     "z": 15787.8
+    }
+   ],
+   "tasks": [
+    {
+     "id": "wc2019-t4",
+     "name": {
+      "ru": "ЧМ 2019 · задание 4: Murlis R20 — Landing Pradielis — Krikov Vrh — Goal Bordano",
+      "en": "Worlds 2019 · task 4: Murlis R20 — Landing Pradielis — Krikov Vrh — Goal Bordano",
+      "he": "אליפות העולם 2019 · משימה 4: Murlis R20 — Landing Pradielis — Krikov Vrh — Goal Bordano"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "v02-0",
+       "name": {
+        "ru": "Murlis R20",
+        "en": "Murlis R20",
+        "he": "Murlis R20"
+       },
+       "r": 2000,
+       "x": 16793.8,
+       "z": 24028.8
+      },
+      {
+       "id": "l06-1",
+       "name": {
+        "ru": "Landing Pradielis",
+        "en": "Landing Pradielis",
+        "he": "Landing Pradielis"
+       },
+       "r": 2000,
+       "x": 27931.1,
+       "z": 18552.1
+      },
+      {
+       "id": "b31-2",
+       "name": {
+        "ru": "Krikov Vrh",
+        "en": "Krikov Vrh",
+        "he": "Krikov Vrh"
+       },
+       "r": 9000,
+       "x": 67297.2,
+       "z": 24037.7
+      },
+      {
+       "id": "b05-3",
+       "name": {
+        "ru": "Passo Rest",
+        "en": "Passo Rest",
+        "he": "Passo Rest"
+       },
+       "r": 2000,
+       "x": 13586.3,
+       "z": 14445.4
+      },
+      {
+       "id": "b51-4",
+       "name": {
+        "ru": "Cividale Ponte Del Diavolo",
+        "en": "Cividale Ponte Del Diavolo",
+        "he": "Cividale Ponte Del Diavolo"
+       },
+       "r": 10000,
+       "x": 40776.5,
+       "z": 39594.3
+      },
+      {
+       "id": "z11-5",
+       "name": {
+        "ru": "Gemona Incrocio",
+        "en": "Gemona Incrocio",
+        "he": "Gemona Incrocio"
+       },
+       "r": 400,
+       "x": 16051.4,
+       "z": 18725.7
+      },
+      {
+       "id": "a02-6",
+       "name": {
+        "ru": "Goal Bordano",
+        "en": "Goal Bordano",
+        "he": "Goal Bordano"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 4, 2019-07-19, 143.4 км, ворота 14:25, 14:50"
+    },
+    {
+     "id": "wc2019-t7",
+     "name": {
+      "ru": "ЧМ 2019 · задание 7: Dimon — Monte Bioichia — Cividale Ponte Del Diavolo — Goal Bordano",
+      "en": "Worlds 2019 · task 7: Dimon — Monte Bioichia — Cividale Ponte Del Diavolo — Goal Bordano",
+      "he": "אליפות העולם 2019 · משימה 7: Dimon — Monte Bioichia — Cividale Ponte Del Diavolo — Goal Bordano"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "b57-0",
+       "name": {
+        "ru": "Dimon",
+        "en": "Dimon",
+        "he": "Dimon"
+       },
+       "r": 1000,
+       "x": 11526.2,
+       "z": -13299.8
+      },
+      {
+       "id": "b17-1",
+       "name": {
+        "ru": "Monte Bioichia",
+        "en": "Monte Bioichia",
+        "he": "Monte Bioichia"
+       },
+       "r": 2000,
+       "x": -2812.5,
+       "z": -13913.5
+      },
+      {
+       "id": "b51-2",
+       "name": {
+        "ru": "Cividale Ponte Del Diavolo",
+        "en": "Cividale Ponte Del Diavolo",
+        "he": "Cividale Ponte Del Diavolo"
+       },
+       "r": 10000,
+       "x": 40776.5,
+       "z": 39594.3
+      },
+      {
+       "id": "z11-3",
+       "name": {
+        "ru": "Gemona Incrocio",
+        "en": "Gemona Incrocio",
+        "he": "Gemona Incrocio"
+       },
+       "r": 400,
+       "x": 16051.4,
+       "z": 18725.7
+      },
+      {
+       "id": "a02-4",
+       "name": {
+        "ru": "Goal Bordano",
+        "en": "Goal Bordano",
+        "he": "Goal Bordano"
+       },
+       "r": 400,
+       "x": 16362.0,
+       "z": 15787.8
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 7, 2019-07-22, 127.7 км, ворота 14:15"
+    },
+    {
+     "id": "wc2019-t10",
+     "name": {
+      "ru": "ЧМ 2019 · задание 10: Spilimbergo — Alfa Punto Dettato Da Ronchi — Cuar — Goal Premariacco",
+      "en": "Worlds 2019 · task 10: Spilimbergo — Alfa Punto Dettato Da Ronchi — Cuar — Goal Premariacco",
+      "he": "אליפות העולם 2019 · משימה 10: Spilimbergo — Alfa Punto Dettato Da Ronchi — Cuar — Goal Premariacco"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "b26-0",
+       "name": {
+        "ru": "Spilimbergo",
+        "en": "Spilimbergo",
+        "he": "Spilimbergo"
+       },
+       "r": 8000,
+       "x": 276.9,
+       "z": 37994.3
+      },
+      {
+       "id": "b16-1",
+       "name": {
+        "ru": "Alfa Punto Dettato Da Ronchi",
+        "en": "Alfa Punto Dettato Da Ronchi",
+        "he": "Alfa Punto Dettato Da Ronchi"
+       },
+       "r": 2000,
+       "x": 38889.8,
+       "z": 36981.5
+      },
+      {
+       "id": "b48-2",
+       "name": {
+        "ru": "Cuar",
+        "en": "Cuar",
+        "he": "Cuar"
+       },
+       "r": 10000,
+       "x": 7414.4,
+       "z": 19442.2
+      },
+      {
+       "id": "a20-3",
+       "name": {
+        "ru": "Goal Premariacco",
+        "en": "Goal Premariacco",
+        "he": "Goal Premariacco"
+       },
+       "r": 400,
+       "x": 35851.7,
+       "z": 42175.1
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 10, 2019-07-26, 100.6 км, ворота 13:00, 13:25"
+    }
+   ]
+  },
+  {
+   "id": "crostis",
+   "name": {
+    "ru": "Монте-Кростис",
+    "en": "Monte Crostis",
+    "he": "מונטה קרוסטיס"
+   },
+   "face": 190,
+   "hg": true,
+   "notes": "Старт ЧМ 2019 (D03) и Pre-Worlds 2018 (T09): ~1900 м в Карнийских Альпах; посадка Черчивенто (при ветре З–С не садиться). Задания уходят в Австрию (Гайльталь, Нёч).",
+   "wind": "юго-восток — юго-запад",
+   "x": 2002.6,
+   "z": -10719.0,
+   "thermals": [
+    {
+     "x": 2326.3,
+     "z": -10244.7
+    },
+    {
+     "x": 2064.7,
+     "z": -11035.3
+    },
+    {
+     "x": 2281.0,
+     "z": -12229.5
+    }
+   ],
+   "landings": [
+    {
+     "id": "cercivento",
+     "name": {
+      "ru": "посадка Черчивенто",
+      "en": "Cercivento LZ",
+      "he": "נחיתת צ׳רצ׳יבנטו"
+     },
+     "x": 7947.5,
+     "z": -8169.2
+    }
+   ],
+   "tasks": [
+    {
+     "id": "wc2019-t8",
+     "name": {
+      "ru": "ЧМ 2019 · задание 8: Dimon — T Off Emberger Alm — Weisswaende — Goal Flugplatz Notsch",
+      "en": "Worlds 2019 · task 8: Dimon — T Off Emberger Alm — Weisswaende — Goal Flugplatz Notsch",
+      "he": "אליפות העולם 2019 · משימה 8: Dimon — T Off Emberger Alm — Weisswaende — Goal Flugplatz Notsch"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "b57-0",
+       "name": {
+        "ru": "Dimon",
+        "en": "Dimon",
+        "he": "Dimon"
+       },
+       "r": 1000,
+       "x": 11526.2,
+       "z": -13299.8
+      },
+      {
+       "id": "d05-1",
+       "name": {
+        "ru": "T Off Emberger Alm",
+        "en": "T Off Emberger Alm",
+        "he": "T Off Emberger Alm"
+       },
+       "r": 1000,
+       "x": 19131.6,
+       "z": -35660.1
+      },
+      {
+       "id": "b82-2",
+       "name": {
+        "ru": "Weisswaende",
+        "en": "Weisswaende",
+        "he": "Weisswaende"
+       },
+       "r": 8000,
+       "x": 38050.7,
+       "z": -37626.1
+      },
+      {
+       "id": "b91-3",
+       "name": {
+        "ru": "Eidechsspitz",
+        "en": "Eidechsspitz",
+        "he": "Eidechsspitz"
+       },
+       "r": 2000,
+       "x": -36533.6,
+       "z": -42871.8
+      },
+      {
+       "id": "a15-4",
+       "name": {
+        "ru": "Goal Flugplatz Notsch",
+        "en": "Goal Flugplatz Notsch",
+        "he": "Goal Flugplatz Notsch"
+       },
+       "r": 400,
+       "x": 55970.4,
+       "z": -14441.0
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune wc2019 task 8, 2019-07-23, 200.7 км, ворота 13:15, 13:40"
+    },
+    {
+     "id": "pw2018-t4",
+     "name": {
+      "ru": "Pre-Worlds 2018 · задание 4: Dimon — Take Off Emberger Alm — Turnpoint 95 — Goal G98 [A]",
+      "en": "Pre-Worlds 2018 · task 4: Dimon — Take Off Emberger Alm — Turnpoint 95 — Goal G98 [A]",
+      "he": "Pre-Worlds 2018 · משימה 4: Dimon — Take Off Emberger Alm — Turnpoint 95 — Goal G98 [A]"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "a51-0",
+       "name": {
+        "ru": "Dimon",
+        "en": "Dimon",
+        "he": "Dimon"
+       },
+       "r": 400,
+       "x": 11526.2,
+       "z": -13299.8
+      },
+      {
+       "id": "t14-1",
+       "name": {
+        "ru": "Take Off Emberger Alm",
+        "en": "Take Off Emberger Alm",
+        "he": "Take Off Emberger Alm"
+       },
+       "r": 400,
+       "x": 19131.6,
+       "z": -35660.1
+      },
+      {
+       "id": "b95-2",
+       "name": {
+        "ru": "Turnpoint 95",
+        "en": "Turnpoint 95",
+        "he": "Turnpoint 95"
+       },
+       "r": 2500,
+       "x": -12910.6,
+       "z": -50311.2
+      },
+      {
+       "id": "b77-3",
+       "name": {
+        "ru": "Turnpoint 77",
+        "en": "Turnpoint 77",
+        "he": "Turnpoint 77"
+       },
+       "r": 400,
+       "x": 59227.8,
+       "z": -16862.5
+      },
+      {
+       "id": "b71-4",
+       "name": {
+        "ru": "Turnpoint 71",
+        "en": "Turnpoint 71",
+        "he": "Turnpoint 71"
+       },
+       "r": 600,
+       "x": 53348.1,
+       "z": -6019.6
+      },
+      {
+       "id": "g98-5",
+       "name": {
+        "ru": "Goal G98 [A]",
+        "en": "Goal G98 [A]",
+        "he": "Goal G98 [A]"
+       },
+       "r": 400,
+       "x": 50109.1,
+       "z": -6634.4
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune pw2018 task 4, 2018-07-31, 155.5 км, ворота 13:25, 13:55"
+    },
+    {
+     "id": "pw2018-t5",
+     "name": {
+      "ru": "Pre-Worlds 2018 · задание 5: Dimon — Take Off Emberger Alm — Turnpoint 95 — Goal 97 [A]",
+      "en": "Pre-Worlds 2018 · task 5: Dimon — Take Off Emberger Alm — Turnpoint 95 — Goal 97 [A]",
+      "he": "Pre-Worlds 2018 · משימה 5: Dimon — Take Off Emberger Alm — Turnpoint 95 — Goal 97 [A]"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "a51-0",
+       "name": {
+        "ru": "Dimon",
+        "en": "Dimon",
+        "he": "Dimon"
+       },
+       "r": 400,
+       "x": 11526.2,
+       "z": -13299.8
+      },
+      {
+       "id": "t14-1",
+       "name": {
+        "ru": "Take Off Emberger Alm",
+        "en": "Take Off Emberger Alm",
+        "he": "Take Off Emberger Alm"
+       },
+       "r": 5000,
+       "x": 19131.6,
+       "z": -35660.1
+      },
+      {
+       "id": "b95-2",
+       "name": {
+        "ru": "Turnpoint 95",
+        "en": "Turnpoint 95",
+        "he": "Turnpoint 95"
+       },
+       "r": 4000,
+       "x": -12910.6,
+       "z": -50311.2
+      },
+      {
+       "id": "a19-3",
+       "name": {
+        "ru": "Tre Confini",
+        "en": "Tre Confini",
+        "he": "Tre Confini"
+       },
+       "r": 5000,
+       "x": 62445.3,
+       "z": -8047.6
+      },
+      {
+       "id": "g97-4",
+       "name": {
+        "ru": "Goal 97 [A]",
+        "en": "Goal 97 [A]",
+        "he": "Goal 97 [A]"
+       },
+       "r": 400,
+       "x": 56427.5,
+       "z": -14448.7
+      }
+     ],
+     "finish": null,
+     "src": "Airtribune pw2018 task 5, 2018-08-01, 138.4 км, ворота 13:40, 14:05"
+    }
+   ]
+  }
+ ],
+ "sources": "Copernicus DEM GLO-30 (© DLR/Airbus, Copernicus); Sentinel-2 cloudless 2016 by EOX (CC BY-SA 4.0); © OpenStreetMap contributors (ODbL)",
+ "hotspots": [
+  {
+   "x": -7372,
+   "z": 24174,
+   "k": 1.0
+  },
+  {
+   "x": -6275,
+   "z": 24957,
+   "k": 0.8
+  },
+  {
+   "x": 21311,
+   "z": 19390,
+   "k": 0.75
+  },
+  {
+   "x": -5393,
+   "z": 24588,
+   "k": 0.59
+  },
+  {
+   "x": -16067,
+   "z": 24175,
+   "k": 0.59
+  },
+  {
+   "x": 20739,
+   "z": 10959,
+   "k": 0.58
+  },
+  {
+   "x": 2326,
+   "z": -10245,
+   "k": 0.57
+  },
+  {
+   "x": 20177,
+   "z": 16944,
+   "k": 0.56
+  },
+  {
+   "x": -4369,
+   "z": 25371,
+   "k": 0.56
+  },
+  {
+   "x": 20172,
+   "z": 19376,
+   "k": 0.55
+  },
+  {
+   "x": -19894,
+   "z": 30181,
+   "k": 0.54
+  },
+  {
+   "x": 21856,
+   "z": 18604,
+   "k": 0.53
+  },
+  {
+   "x": -8020,
+   "z": 23386,
+   "k": 0.51
+  },
+  {
+   "x": 21692,
+   "z": 17376,
+   "k": 0.51
+  },
+  {
+   "x": 26676,
+   "z": 23332,
+   "k": 0.51
+  },
+  {
+   "x": 11226,
+   "z": -13044,
+   "k": 0.51
+  },
+  {
+   "x": -14512,
+   "z": 23792,
+   "k": 0.51
+  },
+  {
+   "x": -17341,
+   "z": 29754,
+   "k": 0.5
+  },
+  {
+   "x": -9673,
+   "z": 23767,
+   "k": 0.47
+  },
+  {
+   "x": -3752,
+   "z": 26162,
+   "k": 0.47
+  },
+  {
+   "x": 15060,
+   "z": 6590,
+   "k": 0.45
+  },
+  {
+   "x": -24172,
+   "z": 34604,
+   "k": 0.45
+  },
+  {
+   "x": 19048,
+   "z": -35864,
+   "k": 0.45
+  },
+  {
+   "x": 7382,
+   "z": 19700,
+   "k": 0.44
+  },
+  {
+   "x": 25336,
+   "z": 17001,
+   "k": 0.43
+  },
+  {
+   "x": 1624,
+   "z": 22961,
+   "k": 0.42
+  },
+  {
+   "x": -13572,
+   "z": 23376,
+   "k": 0.42
+  },
+  {
+   "x": 27275,
+   "z": 24535,
+   "k": 0.41
+  },
+  {
+   "x": 2281,
+   "z": -12229,
+   "k": 0.41
+  },
+  {
+   "x": 14873,
+   "z": -25852,
+   "k": 0.41
+  },
+  {
+   "x": -6451,
+   "z": 23793,
+   "k": 0.41
+  },
+  {
+   "x": -22870,
+   "z": 34117,
+   "k": 0.4
+  },
+  {
+   "x": 20695,
+   "z": 18601,
+   "k": 0.4
+  },
+  {
+   "x": 21539,
+   "z": 22918,
+   "k": 0.4
+  },
+  {
+   "x": -2790,
+   "z": 25773,
+   "k": 0.39
+  },
+  {
+   "x": 23406,
+   "z": 16994,
+   "k": 0.39
+  },
+  {
+   "x": -16055,
+   "z": 28929,
+   "k": 0.39
+  },
+  {
+   "x": 11693,
+   "z": -4651,
+   "k": 0.39
+  },
+  {
+   "x": 11413,
+   "z": -14766,
+   "k": 0.38
+  },
+  {
+   "x": -16979,
+   "z": 25274,
+   "k": 0.38
+  },
+  {
+   "x": -5591,
+   "z": 25733,
+   "k": 0.37
+  },
+  {
+   "x": 5162,
+   "z": -37487,
+   "k": 0.37
+  },
+  {
+   "x": 34849,
+   "z": 28962,
+   "k": 0.37
+  },
+  {
+   "x": -7889,
+   "z": 24967,
+   "k": 0.36
+  },
+  {
+   "x": 14464,
+   "z": 5737,
+   "k": 0.35
+  },
+  {
+   "x": -894,
+   "z": -12614,
+   "k": 0.35
+  },
+  {
+   "x": 27647,
+   "z": -37041,
+   "k": 0.35
+  },
+  {
+   "x": -12348,
+   "z": 23414,
+   "k": 0.35
+  },
+  {
+   "x": 15817,
+   "z": -36219,
+   "k": 0.35
+  },
+  {
+   "x": 57879,
+   "z": 20550,
+   "k": 0.34
+  },
+  {
+   "x": -32187,
+   "z": 42947,
+   "k": 0.34
+  },
+  {
+   "x": 10126,
+   "z": 19453,
+   "k": 0.34
+  },
+  {
+   "x": 21048,
+   "z": 16598,
+   "k": 0.34
+  },
+  {
+   "x": 27502,
+   "z": 22962,
+   "k": 0.34
+  },
+  {
+   "x": 1456,
+   "z": 29009,
+   "k": 0.34
+  },
+  {
+   "x": -13445,
+   "z": 28113,
+   "k": 0.33
+  },
+  {
+   "x": 33196,
+   "z": 29335,
+   "k": 0.33
+  },
+  {
+   "x": 14922,
+   "z": 22178,
+   "k": 0.33
+  },
+  {
+   "x": 12563,
+   "z": -18331,
+   "k": 0.33
+  },
+  {
+   "x": -25586,
+   "z": 36144,
+   "k": 0.33
+  },
+  {
+   "x": -29480,
+   "z": 41019,
+   "k": 0.33
+  },
+  {
+   "x": 13071,
+   "z": 6543,
+   "k": 0.33
+  },
+  {
+   "x": -8587,
+   "z": -46617,
+   "k": 0.32
+  },
+  {
+   "x": 12285,
+   "z": -36665,
+   "k": 0.32
+  },
+  {
+   "x": 36098,
+   "z": 29031,
+   "k": 0.32
+  },
+  {
+   "x": 14059,
+   "z": 26580,
+   "k": 0.32
+  },
+  {
+   "x": 30058,
+   "z": 17394,
+   "k": 0.31
+  },
+  {
+   "x": 10669,
+   "z": -12218,
+   "k": 0.31
+  },
+  {
+   "x": 5104,
+   "z": 28945,
+   "k": 0.31
+  },
+  {
+   "x": 1736747,
+   "z": 860143,
+   "k": 0.31
+  },
+  {
+   "x": -26159,
+   "z": 37393,
+   "k": 0.3
+  },
+  {
+   "x": 5772,
+   "z": -12256,
+   "k": 0.3
+  },
+  {
+   "x": -2873,
+   "z": 20555,
+   "k": 0.3
+  },
+  {
+   "x": 2298,
+   "z": -39414,
+   "k": 0.3
+  },
+  {
+   "x": 18840,
+   "z": -36938,
+   "k": 0.3
+  },
+  {
+   "x": 22930,
+   "z": -37087,
+   "k": 0.3
+  },
+  {
+   "x": 15193,
+   "z": -27095,
+   "k": 0.29
+  },
+  {
+   "x": -21603,
+   "z": 33385,
+   "k": 0.29
+  },
+  {
+   "x": -30944,
+   "z": 42535,
+   "k": 0.29
+  },
+  {
+   "x": -3063,
+   "z": 24605,
+   "k": 0.29
+  },
+  {
+   "x": -4168,
+   "z": 24200,
+   "k": 0.29
+  },
+  {
+   "x": 12947,
+   "z": 7710,
+   "k": 0.29
+  },
+  {
+   "x": 10213,
+   "z": 4561,
+   "k": 0.29
+  },
+  {
+   "x": -10288,
+   "z": 22562,
+   "k": 0.28
+  },
+  {
+   "x": 45997,
+   "z": 19784,
+   "k": 0.28
+  },
+  {
+   "x": 815,
+   "z": 24847,
+   "k": 0.28
+  },
+  {
+   "x": 19316,
+   "z": 19742,
+   "k": 0.28
+  },
+  {
+   "x": 42551,
+   "z": 18976,
+   "k": 0.28
+  },
+  {
+   "x": 12886,
+   "z": -35877,
+   "k": 0.28
+  },
+  {
+   "x": 13681,
+   "z": 17348,
+   "k": 0.28
+  },
+  {
+   "x": 14365,
+   "z": 22974,
+   "k": 0.28
+  },
+  {
+   "x": 12266,
+   "z": -16934,
+   "k": 0.28
+  },
+  {
+   "x": -17986,
+   "z": 28924,
+   "k": 0.27
+  },
+  {
+   "x": 28404,
+   "z": 24558,
+   "k": 0.27
+  },
+  {
+   "x": 41425,
+   "z": 18594,
+   "k": 0.27
+  },
+  {
+   "x": 20902,
+   "z": 22202,
+   "k": 0.27
+  },
+  {
+   "x": 4217,
+   "z": -12697,
+   "k": 0.27
+  },
+  {
+   "x": 19010,
+   "z": 16944,
+   "k": 0.27
+  },
+  {
+   "x": 5962,
+   "z": 28176,
+   "k": 0.26
+  },
+  {
+   "x": 15664,
+   "z": 29376,
+   "k": 0.26
+  },
+  {
+   "x": 26175,
+   "z": 28142,
+   "k": 0.26
+  },
+  {
+   "x": 16299,
+   "z": 1405,
+   "k": 0.26
+  },
+  {
+   "x": 129,
+   "z": -14209,
+   "k": 0.26
+  },
+  {
+   "x": -25000,
+   "z": 34977,
+   "k": 0.26
+  },
+  {
+   "x": 2964,
+   "z": -38646,
+   "k": 0.26
+  },
+  {
+   "x": 16701,
+   "z": 25738,
+   "k": 0.26
+  },
+  {
+   "x": 34718,
+   "z": 18136,
+   "k": 0.26
+  },
+  {
+   "x": -1933,
+   "z": 24941,
+   "k": 0.26
+  },
+  {
+   "x": 759,
+   "z": -694,
+   "k": 0.26
+  },
+  {
+   "x": -42212,
+   "z": 46136,
+   "k": 0.26
+  },
+  {
+   "x": 20828,
+   "z": 17707,
+   "k": 0.25
+  },
+  {
+   "x": 33352,
+   "z": 26177,
+   "k": 0.25
+  },
+  {
+   "x": 18652,
+   "z": 29004,
+   "k": 0.25
+  },
+  {
+   "x": 18292,
+   "z": 25356,
+   "k": 0.25
+  },
+  {
+   "x": 6420,
+   "z": 32546,
+   "k": 0.25
+  },
+  {
+   "x": 12432,
+   "z": 27381,
+   "k": 0.25
+  },
+  {
+   "x": -16683,
+   "z": -41446,
+   "k": 0.25
+  },
+  {
+   "x": -11327,
+   "z": 26588,
+   "k": 0.25
+  },
+  {
+   "x": -23929,
+   "z": 35766,
+   "k": 0.25
+  },
+  {
+   "x": 22183,
+   "z": 19680,
+   "k": 0.25
+  },
+  {
+   "x": 13685,
+   "z": 27708,
+   "k": 0.25
+  },
+  {
+   "x": 14093,
+   "z": 24581,
+   "k": 0.25
+  },
+  {
+   "x": 9598,
+   "z": -37418,
+   "k": 0.25
+  },
+  {
+   "x": 1403,
+   "z": -9901,
+   "k": 0.25
+  },
+  {
+   "x": 3983,
+   "z": 28154,
+   "k": 0.25
+  }
+ ],
+ "hotspotsSource": "1742 IGC tracks of past competitions (Airtribune, airScore), climbs on 400 m grid",
+ "thermal": {
+  "w": 1.1,
+  "r": 1.1
+ },
+ "bld": {
+  "n": 640494,
+  "q": 4
+ }
+}
