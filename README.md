@@ -1,10 +1,10 @@
 # Hang Glider Sim — test builds / тестовые сборки / גרסאות בדיקה
 
-**Latest build #388** — [download APK](https://github.com/AndyB1ack/hang-glider-sim-builds/releases/download/build-388/hang-glider-sim-388.apk). Install it over the previous one; pilots and saves are kept. The game tells you when a new build is out. All builds: [Releases](https://github.com/AndyB1ack/hang-glider-sim-builds/releases).
+**Latest build #390** — [download APK](https://github.com/AndyB1ack/hang-glider-sim-builds/releases/download/build-390/hang-glider-sim-390.apk). Install it over the previous one; pilots and saves are kept. The game tells you when a new build is out. All builds: [Releases](https://github.com/AndyB1ack/hang-glider-sim-builds/releases).
 
-**Последняя сборка №388** — [скачать APK](https://github.com/AndyB1ack/hang-glider-sim-builds/releases/download/build-388/hang-glider-sim-388.apk). Устанавливается поверх прежней, пилоты и сохранения остаются. Игра сама сообщает о новой сборке.
+**Последняя сборка №390** — [скачать APK](https://github.com/AndyB1ack/hang-glider-sim-builds/releases/download/build-390/hang-glider-sim-390.apk). Устанавливается поверх прежней, пилоты и сохранения остаются. Игра сама сообщает о новой сборке.
 
-**גרסה אחרונה מס׳ 388** — [להורדת ה-APK](https://github.com/AndyB1ack/hang-glider-sim-builds/releases/download/build-388/hang-glider-sim-388.apk). מתקינים מעל הקודמת, הטייסים והשמירות נשארים. המשחק מודיע בעצמו על גרסה חדשה.
+**גרסה אחרונה מס׳ 390** — [להורדת ה-APK](https://github.com/AndyB1ack/hang-glider-sim-builds/releases/download/build-390/hang-glider-sim-390.apk). מתקינים מעל הקודמת, הטייסים והשמירות נשארים. המשחק מודיע בעצמו על גרסה חדשה.
 
 ## 🌐 Web version / Веб-версия / גרסת רשת — https://andyb1ack.github.io/hang-glider-sim-builds/
 
