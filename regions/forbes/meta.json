@@ -1,0 +1,3034 @@
+{
+ "id": "forbes",
+ "origin": [
+  -33.36,
+  147.93
+ ],
+ "k": [
+  92978.02265996742,
+  110574
+ ],
+ "height": "m = (R*256+G)/10 - 500; B = класс маски",
+ "classes": {
+  "own": [
+   1,
+   4,
+   5,
+   6
+  ],
+  "sea": 3,
+  "closed": [
+   0,
+   2
+  ]
+ },
+ "base": {
+  "x0": -67873.95654177791,
+  "z0": -166966.7399999998,
+  "cell": 120.0,
+  "w": 1202,
+  "h": 1936,
+  "png": "base.png",
+  "jpg": "base.jpg"
+ },
+ "details": [
+  {
+   "x0": -5281.0,
+   "z0": -4290.0,
+   "cell": 30.0,
+   "w": 339,
+   "h": 307,
+   "png": "detail-0.png",
+   "jpg": "detail-0.jpg"
+  }
+ ],
+ "sites": [
+  {
+   "id": "forbes-e",
+   "name": {
+    "ru": "Forbes, поле BMIA (взлёт на восток)",
+    "en": "Forbes, BMIA paddock (launch east)",
+    "he": "Forbes, שדה BMIA (המראה מזרחה)"
+   },
+   "face": 90,
+   "hg": true,
+   "notes": "Forbes Flatlands (FAI 2-я категория): BMIA — Bill Moyes International Airport, поле к северу от аэродрома Forbes (Dr Young Drive); аэробуксировка за Moyes Dragonfly, 4 линии; стартовый цилиндр BMIA 5–10 км, SPEEDRUN-INTERVAL. Задания — настоящие, из airScore (xc.highcloud.net, Forbes Flatlands 2022–2026, открытый и спорт-класс), только те, что целиком в районе; дежурные потоки и горячие места — по 866 трекам airScore.",
+   "landings": [
+    {
+     "id": "field",
+     "name": {
+      "ru": "поле BMIA",
+      "en": "BMIA paddock",
+      "he": "שדה BMIA"
+     },
+     "x": 883.3,
+     "z": -497.6
+    }
+   ],
+   "tasks": [
+    {
+     "id": "fb211229",
+     "name": {
+      "ru": "Forbes 2021 · MINES — ALEC — BMIA",
+      "en": "Forbes 2021 · MINES — ALEC — BMIA",
+      "he": "Forbes 2021 · MINES — ALEC — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "mines0",
+       "name": {
+        "ru": "MINES",
+        "en": "MINES",
+        "he": "MINES"
+       },
+       "r": 1000,
+       "x": 5106.4,
+       "z": -50617.5
+      },
+      {
+       "id": "alec1",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 5000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2021-12-29, 136.37 км, speedrun-interval"
+    },
+    {
+     "id": "fb211231",
+     "name": {
+      "ru": "Forbes 2021 · BILLA — SKULLS — BOGAN",
+      "en": "Forbes 2021 · BILLA — SKULLS — BOGAN",
+      "he": "Forbes 2021 · BILLA — SKULLS — BOGAN"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "billa0",
+       "name": {
+        "ru": "BILLA",
+        "en": "BILLA",
+        "he": "BILLA"
+       },
+       "r": 400,
+       "x": -16299.0,
+       "z": -73089.4
+      },
+      {
+       "id": "skulls1",
+       "name": {
+        "ru": "SKULLS",
+        "en": "SKULLS",
+        "he": "SKULLS"
+       },
+       "r": 400,
+       "x": -34906.7,
+       "z": -44937.3
+      },
+      {
+       "id": "bogan2",
+       "name": {
+        "ru": "BOGAN",
+        "en": "BOGAN",
+        "he": "BOGAN"
+       },
+       "r": 2000,
+       "x": -1819.6,
+       "z": -25883.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2021-12-31, 147.09 км, speedrun-interval"
+    },
+    {
+     "id": "fb220101",
+     "name": {
+      "ru": "Forbes 2022 · CARAGA — GOOLOO — BMIA",
+      "en": "Forbes 2022 · CARAGA — GOOLOO — BMIA",
+      "he": "Forbes 2022 · CARAGA — GOOLOO — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "caraga0",
+       "name": {
+        "ru": "CARAGA",
+        "en": "CARAGA",
+        "he": "CARAGA"
+       },
+       "r": 3000,
+       "x": -17724.4,
+       "z": 52647.6
+      },
+      {
+       "id": "gooloo1",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 3000,
+       "x": 44650.8,
+       "z": 28701.7
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2022-01-01, 175.8 км, speedrun-interval"
+    },
+    {
+     "id": "fb220102",
+     "name": {
+      "ru": "Forbes 2022 · ALEC — TRANG",
+      "en": "Forbes 2022 · ALEC — TRANG",
+      "he": "Forbes 2022 · ALEC — TRANG"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 1000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "trang1",
+       "name": {
+        "ru": "TRANG",
+        "en": "TRANG",
+        "he": "TRANG"
+       },
+       "r": 2500,
+       "x": 6833.9,
+       "z": -152614.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2022-01-02, 164.23 км, speedrun-interval"
+    },
+    {
+     "id": "fb220104",
+     "name": {
+      "ru": "Forbes 2022 · KTWO — LEAFY — FORRES — BMIA",
+      "en": "Forbes 2022 · KTWO — LEAFY — FORRES — BMIA",
+      "he": "Forbes 2022 · KTWO — LEAFY — FORRES — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "ktwo0",
+       "name": {
+        "ru": "KTWO",
+        "en": "KTWO",
+        "he": "KTWO"
+       },
+       "r": 400,
+       "x": -13732.9,
+       "z": 24967.6
+      },
+      {
+       "id": "leafy1",
+       "name": {
+        "ru": "LEAFY",
+        "en": "LEAFY",
+        "he": "LEAFY"
+       },
+       "r": 400,
+       "x": -16712.8,
+       "z": -26943.6
+      },
+      {
+       "id": "forres2",
+       "name": {
+        "ru": "FORRES",
+        "en": "FORRES",
+        "he": "FORRES"
+       },
+       "r": 400,
+       "x": 20283.2,
+       "z": -3275.2
+      },
+      {
+       "id": "bmia3",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 1000,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2022-01-04, 145.41 км, race"
+    },
+    {
+     "id": "fb211229s",
+     "name": {
+      "ru": "Forbes 2021 · TRUND",
+      "en": "Forbes 2021 · TRUND",
+      "he": "Forbes 2021 · TRUND"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "trund0",
+       "name": {
+        "ru": "TRUND",
+        "en": "TRUND",
+        "he": "TRUND"
+       },
+       "r": 3000,
+       "x": -20483.1,
+       "z": -46684.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2021-12-29, 50.95 км, speedrun"
+    },
+    {
+     "id": "fb211230s",
+     "name": {
+      "ru": "Forbes 2021 · OOTHA",
+      "en": "Forbes 2021 · OOTHA",
+      "he": "Forbes 2021 · OOTHA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "ootha0",
+       "name": {
+        "ru": "OOTHA",
+        "en": "OOTHA",
+        "he": "OOTHA"
+       },
+       "r": 1000,
+       "x": -44869.3,
+       "z": -26419.4
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2021-12-30, 52.3 км, speedrun"
+    },
+    {
+     "id": "fb220101s",
+     "name": {
+      "ru": "Forbes 2022 · SASHA",
+      "en": "Forbes 2022 · SASHA",
+      "he": "Forbes 2022 · SASHA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 3000,
+       "x": 13100.6,
+       "z": 58106.6
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-01, 60 км, speedrun"
+    },
+    {
+     "id": "fb220102s",
+     "name": {
+      "ru": "Forbes 2022 · TOMING",
+      "en": "Forbes 2022 · TOMING",
+      "he": "Forbes 2022 · TOMING"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 3000,
+       "x": 27574.5,
+       "z": -87786.9
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-02, 91.89 км, speedrun"
+    },
+    {
+     "id": "fb220103s",
+     "name": {
+      "ru": "Forbes 2022 · YNRM",
+      "en": "Forbes 2022 · YNRM",
+      "he": "Forbes 2022 · YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "ynrm0",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-03, 129.61 км, speedrun"
+    },
+    {
+     "id": "fb220104s",
+     "name": {
+      "ru": "Forbes 2022 · AFARM — LEAFY — BMIA",
+      "en": "Forbes 2022 · AFARM — LEAFY — BMIA",
+      "he": "Forbes 2022 · AFARM — LEAFY — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "afarm0",
+       "name": {
+        "ru": "AFARM",
+        "en": "AFARM",
+        "he": "AFARM"
+       },
+       "r": 400,
+       "x": 5178.9,
+       "z": -18764.4
+      },
+      {
+       "id": "leafy1",
+       "name": {
+        "ru": "LEAFY",
+        "en": "LEAFY",
+        "he": "LEAFY"
+       },
+       "r": 10000,
+       "x": -16712.8,
+       "z": -26943.6
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-04, 74.24 км, speedrun"
+    },
+    {
+     "id": "fb230119",
+     "name": {
+      "ru": "Forbes 2023 · TOMING — YNRM",
+      "en": "Forbes 2023 · TOMING — YNRM",
+      "he": "Forbes 2023 · TOMING — YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 3000,
+       "x": 27574.5,
+       "z": -87786.9
+      },
+      {
+       "id": "ynrm1",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 365 (Forbes Flatlands 2023), 2023-01-19, 130.89 км, speedrun-interval"
+    },
+    {
+     "id": "fb230123",
+     "name": {
+      "ru": "Forbes 2023 · TRUND — EUGOWR — BMIA",
+      "en": "Forbes 2023 · TRUND — EUGOWR — BMIA",
+      "he": "Forbes 2023 · TRUND — EUGOWR — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "trund0",
+       "name": {
+        "ru": "TRUND",
+        "en": "TRUND",
+        "he": "TRUND"
+       },
+       "r": 10000,
+       "x": -20483.1,
+       "z": -46684.3
+      },
+      {
+       "id": "eugowr1",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 5000,
+       "x": 38616.6,
+       "z": 8812.7
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 1000,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 365 (Forbes Flatlands 2023), 2023-01-23, 174.47 км, speedrun-interval"
+    },
+    {
+     "id": "fb230119s",
+     "name": {
+      "ru": "Forbes 2023 · PEAKHI",
+      "en": "Forbes 2023 · PEAKHI",
+      "he": "Forbes 2023 · PEAKHI"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "peakhi0",
+       "name": {
+        "ru": "PEAKHI",
+        "en": "PEAKHI",
+        "he": "PEAKHI"
+       },
+       "r": 3000,
+       "x": 26136.1,
+       "z": -69772.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-19, 74.32 км, speedrun"
+    },
+    {
+     "id": "fb230120s",
+     "name": {
+      "ru": "Forbes 2023 · CARAGA",
+      "en": "Forbes 2023 · CARAGA",
+      "he": "Forbes 2023 · CARAGA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "caraga0",
+       "name": {
+        "ru": "CARAGA",
+        "en": "CARAGA",
+        "he": "CARAGA"
+       },
+       "r": 2000,
+       "x": -17724.4,
+       "z": 52647.6
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-20, 56.12 км, speedrun"
+    },
+    {
+     "id": "fb230124s",
+     "name": {
+      "ru": "Forbes 2023 · GOOLOO",
+      "en": "Forbes 2023 · GOOLOO",
+      "he": "Forbes 2023 · GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "gooloo0",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 3000,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-24, 53.04 км, speedrun"
+    },
+    {
+     "id": "fb230125s",
+     "name": {
+      "ru": "Forbes 2023 · EUGOWR",
+      "en": "Forbes 2023 · EUGOWR",
+      "he": "Forbes 2023 · EUGOWR"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "eugowr0",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 3000,
+       "x": 38616.6,
+       "z": 8812.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-25, 39.41 км, speedrun"
+    },
+    {
+     "id": "fb240118",
+     "name": {
+      "ru": "Forbes 2024 · TOMING",
+      "en": "Forbes 2024 · TOMING",
+      "he": "Forbes 2024 · TOMING"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 3000,
+       "x": 27574.5,
+       "z": -87786.9
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-18, 91.89 км, speedrun-interval"
+    },
+    {
+     "id": "fb240119",
+     "name": {
+      "ru": "Forbes 2024 · ALEC — YNRM",
+      "en": "Forbes 2024 · ALEC — YNRM",
+      "he": "Forbes 2024 · ALEC — YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 6000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "ynrm1",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-19, 135.39 км, speedrun-interval"
+    },
+    {
+     "id": "fb240120",
+     "name": {
+      "ru": "Forbes 2024 · HENRY — CANOWI — GOOLOO",
+      "en": "Forbes 2024 · HENRY — CANOWI — GOOLOO",
+      "he": "Forbes 2024 · HENRY — CANOWI — GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "henry0",
+       "name": {
+        "ru": "HENRY",
+        "en": "HENRY",
+        "he": "HENRY"
+       },
+       "r": 4000,
+       "x": 14618.9,
+       "z": 33699.6
+      },
+      {
+       "id": "canowi1",
+       "name": {
+        "ru": "CANOWI",
+        "en": "CANOWI",
+        "he": "CANOWI"
+       },
+       "r": 1000,
+       "x": 68940.4,
+       "z": 21427.0
+      },
+      {
+       "id": "gooloo2",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 500,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-20, 117.94 км, speedrun-interval"
+    },
+    {
+     "id": "fb240122",
+     "name": {
+      "ru": "Forbes 2024 · ALEC — BILLA — YNRM",
+      "en": "Forbes 2024 · ALEC — BILLA — YNRM",
+      "he": "Forbes 2024 · ALEC — BILLA — YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 3000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "billa1",
+       "name": {
+        "ru": "BILLA",
+        "en": "BILLA",
+        "he": "BILLA"
+       },
+       "r": 10000,
+       "x": -16299.0,
+       "z": -73089.4
+      },
+      {
+       "id": "ynrm2",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-22, 181.68 км, speedrun-interval"
+    },
+    {
+     "id": "fb240118s",
+     "name": {
+      "ru": "Forbes 2024 · ALEC",
+      "en": "Forbes 2024 · ALEC",
+      "he": "Forbes 2024 · ALEC"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 3000,
+       "x": 31036.1,
+       "z": -51195.8
+      }
+     ],
+     "finish": null,
+     "src": "airScore 398 (Forbes Flatlands 2024 Sports Class), 2024-01-18, 59.61 км, speedrun"
+    },
+    {
+     "id": "fb250114",
+     "name": {
+      "ru": "Forbes 2025 · SASHA — FIELDS — GOOLOO",
+      "en": "Forbes 2025 · SASHA — FIELDS — GOOLOO",
+      "he": "Forbes 2025 · SASHA — FIELDS — GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 5000,
+       "x": 13100.6,
+       "z": 58106.6
+      },
+      {
+       "id": "fields1",
+       "name": {
+        "ru": "FIELDS",
+        "en": "FIELDS",
+        "he": "FIELDS"
+       },
+       "r": 5000,
+       "x": 34808.2,
+       "z": 17736.1
+      },
+      {
+       "id": "gooloo2",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 400,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-14, 120.67 км, speedrun-interval"
+    },
+    {
+     "id": "fb250116",
+     "name": {
+      "ru": "Forbes 2025 · YNRM",
+      "en": "Forbes 2025 · YNRM",
+      "he": "Forbes 2025 · YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "ynrm0",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-16, 129.61 км, speedrun"
+    },
+    {
+     "id": "fb250119",
+     "name": {
+      "ru": "Forbes 2025 · TRANG",
+      "en": "Forbes 2025 · TRANG",
+      "he": "Forbes 2025 · TRANG"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "trang0",
+       "name": {
+        "ru": "TRANG",
+        "en": "TRANG",
+        "he": "TRANG"
+       },
+       "r": 3000,
+       "x": 6833.9,
+       "z": -152614.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-19, 152.87 км, speedrun-interval"
+    },
+    {
+     "id": "fb250120",
+     "name": {
+      "ru": "Forbes 2025 · TOMING — SKULLS — BMIA",
+      "en": "Forbes 2025 · TOMING — SKULLS — BMIA",
+      "he": "Forbes 2025 · TOMING — SKULLS — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 10000,
+       "x": 27574.5,
+       "z": -87786.9
+      },
+      {
+       "id": "skulls1",
+       "name": {
+        "ru": "SKULLS",
+        "en": "SKULLS",
+        "he": "SKULLS"
+       },
+       "r": 5000,
+       "x": -34906.7,
+       "z": -44937.3
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-20, 225.14 км, speedrun-interval"
+    },
+    {
+     "id": "fb250121",
+     "name": {
+      "ru": "Forbes 2025 · SASHA — YPKS — BMIA",
+      "en": "Forbes 2025 · SASHA — YPKS — BMIA",
+      "he": "Forbes 2025 · SASHA — YPKS — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 10000,
+       "x": 13100.6,
+       "z": 58106.6
+      },
+      {
+       "id": "ypks1",
+       "name": {
+        "ru": "YPKS",
+        "en": "YPKS",
+        "he": "YPKS"
+       },
+       "r": 10000,
+       "x": 28746.0,
+       "z": -25279.4
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-21, 183.01 км, speedrun-interval"
+    },
+    {
+     "id": "fb250119s",
+     "name": {
+      "ru": "Forbes 2025 · MINES",
+      "en": "Forbes 2025 · MINES",
+      "he": "Forbes 2025 · MINES"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "mines0",
+       "name": {
+        "ru": "MINES",
+        "en": "MINES",
+        "he": "MINES"
+       },
+       "r": 2000,
+       "x": 5106.4,
+       "z": -50617.5
+      }
+     ],
+     "finish": null,
+     "src": "airScore 435 (Forbes Flatlands 2025 Sports Class), 2025-01-19, 50.66 км, speedrun"
+    },
+    {
+     "id": "fb250120s",
+     "name": {
+      "ru": "Forbes 2025 · BOGAN — TRUND",
+      "en": "Forbes 2025 · BOGAN — TRUND",
+      "he": "Forbes 2025 · BOGAN — TRUND"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "bogan0",
+       "name": {
+        "ru": "BOGAN",
+        "en": "BOGAN",
+        "he": "BOGAN"
+       },
+       "r": 2000,
+       "x": -1819.6,
+       "z": -25883.2
+      },
+      {
+       "id": "trund1",
+       "name": {
+        "ru": "TRUND",
+        "en": "TRUND",
+        "he": "TRUND"
+       },
+       "r": 3000,
+       "x": -20483.1,
+       "z": -46684.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 435 (Forbes Flatlands 2025 Sports Class), 2025-01-20, 53.76 км, speedrun"
+    },
+    {
+     "id": "fb250121s",
+     "name": {
+      "ru": "Forbes 2025 · EUGOWR — GOOLOO",
+      "en": "Forbes 2025 · EUGOWR — GOOLOO",
+      "he": "Forbes 2025 · EUGOWR — GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "eugowr0",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 5000,
+       "x": 38616.6,
+       "z": 8812.7
+      },
+      {
+       "id": "gooloo1",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 2000,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 435 (Forbes Flatlands 2025 Sports Class), 2025-01-21, 60.25 км, speedrun"
+    },
+    {
+     "id": "fb260113s",
+     "name": {
+      "ru": "Forbes 2026 · SASHA — HENRY",
+      "en": "Forbes 2026 · SASHA — HENRY",
+      "he": "Forbes 2026 · SASHA — HENRY"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 1000,
+       "x": 13100.6,
+       "z": 58106.6
+      },
+      {
+       "id": "henry1",
+       "name": {
+        "ru": "HENRY",
+        "en": "HENRY",
+        "he": "HENRY"
+       },
+       "r": 1000,
+       "x": 14618.9,
+       "z": 33699.6
+      }
+     ],
+     "finish": null,
+     "src": "airScore 463 (Forbes Flatlands 2026 Sports Class), 2026-01-13, 84.53 км, speedrun"
+    },
+    {
+     "id": "fb260116s",
+     "name": {
+      "ru": "Forbes 2026 · TRANG",
+      "en": "Forbes 2026 · TRANG",
+      "he": "Forbes 2026 · TRANG"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "trang0",
+       "name": {
+        "ru": "TRANG",
+        "en": "TRANG",
+        "he": "TRANG"
+       },
+       "r": 3000,
+       "x": 6833.9,
+       "z": -152614.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 463 (Forbes Flatlands 2026 Sports Class), 2026-01-16, 152.87 км, speedrun"
+    },
+    {
+     "id": "fb260120s",
+     "name": {
+      "ru": "Forbes 2026 · EUGOWR — FORRES — BMIA",
+      "en": "Forbes 2026 · EUGOWR — FORRES — BMIA",
+      "he": "Forbes 2026 · EUGOWR — FORRES — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "eugowr0",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 5000,
+       "x": 38616.6,
+       "z": 8812.7
+      },
+      {
+       "id": "forres1",
+       "name": {
+        "ru": "FORRES",
+        "en": "FORRES",
+        "he": "FORRES"
+       },
+       "r": 1000,
+       "x": 20283.2,
+       "z": -3275.2
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 1000,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 463 (Forbes Flatlands 2026 Sports Class), 2026-01-20, 81.62 км, speedrun"
+    }
+   ],
+   "x": -288.2,
+   "z": -337.3,
+   "tow": {
+    "kind": "aerotow",
+    "x": 2324.5,
+    "z": -337.3,
+    "runway": 1200,
+    "grass": true,
+    "width": 40
+   },
+   "thermals": [
+    {
+     "x": 397.9,
+     "z": -381.5
+    },
+    {
+     "x": 99.5,
+     "z": -1158.8
+    },
+    {
+     "x": 1066.5,
+     "z": -757.4
+    }
+   ]
+  },
+  {
+   "id": "forbes-w",
+   "name": {
+    "ru": "Forbes, поле BMIA (взлёт на запад)",
+    "en": "Forbes, BMIA paddock (launch west)",
+    "he": "Forbes, שדה BMIA (המראה מערבה)"
+   },
+   "face": 270,
+   "hg": true,
+   "notes": "Forbes Flatlands (FAI 2-я категория): BMIA — Bill Moyes International Airport, поле к северу от аэродрома Forbes (Dr Young Drive); аэробуксировка за Moyes Dragonfly, 4 линии; стартовый цилиндр BMIA 5–10 км, SPEEDRUN-INTERVAL. Задания — настоящие, из airScore (xc.highcloud.net, Forbes Flatlands 2022–2026, открытый и спорт-класс), только те, что целиком в районе; дежурные потоки и горячие места — по 866 трекам airScore.",
+   "landings": [
+    {
+     "id": "field",
+     "name": {
+      "ru": "поле BMIA",
+      "en": "BMIA paddock",
+      "he": "שדה BMIA"
+     },
+     "x": 883.3,
+     "z": -497.6
+    }
+   ],
+   "tasks": [
+    {
+     "id": "fb211229",
+     "name": {
+      "ru": "Forbes 2021 · MINES — ALEC — BMIA",
+      "en": "Forbes 2021 · MINES — ALEC — BMIA",
+      "he": "Forbes 2021 · MINES — ALEC — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "mines0",
+       "name": {
+        "ru": "MINES",
+        "en": "MINES",
+        "he": "MINES"
+       },
+       "r": 1000,
+       "x": 5106.4,
+       "z": -50617.5
+      },
+      {
+       "id": "alec1",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 5000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2021-12-29, 136.37 км, speedrun-interval"
+    },
+    {
+     "id": "fb211231",
+     "name": {
+      "ru": "Forbes 2021 · BILLA — SKULLS — BOGAN",
+      "en": "Forbes 2021 · BILLA — SKULLS — BOGAN",
+      "he": "Forbes 2021 · BILLA — SKULLS — BOGAN"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "billa0",
+       "name": {
+        "ru": "BILLA",
+        "en": "BILLA",
+        "he": "BILLA"
+       },
+       "r": 400,
+       "x": -16299.0,
+       "z": -73089.4
+      },
+      {
+       "id": "skulls1",
+       "name": {
+        "ru": "SKULLS",
+        "en": "SKULLS",
+        "he": "SKULLS"
+       },
+       "r": 400,
+       "x": -34906.7,
+       "z": -44937.3
+      },
+      {
+       "id": "bogan2",
+       "name": {
+        "ru": "BOGAN",
+        "en": "BOGAN",
+        "he": "BOGAN"
+       },
+       "r": 2000,
+       "x": -1819.6,
+       "z": -25883.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2021-12-31, 147.09 км, speedrun-interval"
+    },
+    {
+     "id": "fb220101",
+     "name": {
+      "ru": "Forbes 2022 · CARAGA — GOOLOO — BMIA",
+      "en": "Forbes 2022 · CARAGA — GOOLOO — BMIA",
+      "he": "Forbes 2022 · CARAGA — GOOLOO — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "caraga0",
+       "name": {
+        "ru": "CARAGA",
+        "en": "CARAGA",
+        "he": "CARAGA"
+       },
+       "r": 3000,
+       "x": -17724.4,
+       "z": 52647.6
+      },
+      {
+       "id": "gooloo1",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 3000,
+       "x": 44650.8,
+       "z": 28701.7
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2022-01-01, 175.8 км, speedrun-interval"
+    },
+    {
+     "id": "fb220102",
+     "name": {
+      "ru": "Forbes 2022 · ALEC — TRANG",
+      "en": "Forbes 2022 · ALEC — TRANG",
+      "he": "Forbes 2022 · ALEC — TRANG"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 1000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "trang1",
+       "name": {
+        "ru": "TRANG",
+        "en": "TRANG",
+        "he": "TRANG"
+       },
+       "r": 2500,
+       "x": 6833.9,
+       "z": -152614.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2022-01-02, 164.23 км, speedrun-interval"
+    },
+    {
+     "id": "fb220104",
+     "name": {
+      "ru": "Forbes 2022 · KTWO — LEAFY — FORRES — BMIA",
+      "en": "Forbes 2022 · KTWO — LEAFY — FORRES — BMIA",
+      "he": "Forbes 2022 · KTWO — LEAFY — FORRES — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "ktwo0",
+       "name": {
+        "ru": "KTWO",
+        "en": "KTWO",
+        "he": "KTWO"
+       },
+       "r": 400,
+       "x": -13732.9,
+       "z": 24967.6
+      },
+      {
+       "id": "leafy1",
+       "name": {
+        "ru": "LEAFY",
+        "en": "LEAFY",
+        "he": "LEAFY"
+       },
+       "r": 400,
+       "x": -16712.8,
+       "z": -26943.6
+      },
+      {
+       "id": "forres2",
+       "name": {
+        "ru": "FORRES",
+        "en": "FORRES",
+        "he": "FORRES"
+       },
+       "r": 400,
+       "x": 20283.2,
+       "z": -3275.2
+      },
+      {
+       "id": "bmia3",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 1000,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 333 (Forbes Flatlands 2022), 2022-01-04, 145.41 км, race"
+    },
+    {
+     "id": "fb211229s",
+     "name": {
+      "ru": "Forbes 2021 · TRUND",
+      "en": "Forbes 2021 · TRUND",
+      "he": "Forbes 2021 · TRUND"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "trund0",
+       "name": {
+        "ru": "TRUND",
+        "en": "TRUND",
+        "he": "TRUND"
+       },
+       "r": 3000,
+       "x": -20483.1,
+       "z": -46684.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2021-12-29, 50.95 км, speedrun"
+    },
+    {
+     "id": "fb211230s",
+     "name": {
+      "ru": "Forbes 2021 · OOTHA",
+      "en": "Forbes 2021 · OOTHA",
+      "he": "Forbes 2021 · OOTHA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "ootha0",
+       "name": {
+        "ru": "OOTHA",
+        "en": "OOTHA",
+        "he": "OOTHA"
+       },
+       "r": 1000,
+       "x": -44869.3,
+       "z": -26419.4
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2021-12-30, 52.3 км, speedrun"
+    },
+    {
+     "id": "fb220101s",
+     "name": {
+      "ru": "Forbes 2022 · SASHA",
+      "en": "Forbes 2022 · SASHA",
+      "he": "Forbes 2022 · SASHA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 3000,
+       "x": 13100.6,
+       "z": 58106.6
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-01, 60 км, speedrun"
+    },
+    {
+     "id": "fb220102s",
+     "name": {
+      "ru": "Forbes 2022 · TOMING",
+      "en": "Forbes 2022 · TOMING",
+      "he": "Forbes 2022 · TOMING"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 3000,
+       "x": 27574.5,
+       "z": -87786.9
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-02, 91.89 км, speedrun"
+    },
+    {
+     "id": "fb220103s",
+     "name": {
+      "ru": "Forbes 2022 · YNRM",
+      "en": "Forbes 2022 · YNRM",
+      "he": "Forbes 2022 · YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "ynrm0",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-03, 129.61 км, speedrun"
+    },
+    {
+     "id": "fb220104s",
+     "name": {
+      "ru": "Forbes 2022 · AFARM — LEAFY — BMIA",
+      "en": "Forbes 2022 · AFARM — LEAFY — BMIA",
+      "he": "Forbes 2022 · AFARM — LEAFY — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "afarm0",
+       "name": {
+        "ru": "AFARM",
+        "en": "AFARM",
+        "he": "AFARM"
+       },
+       "r": 400,
+       "x": 5178.9,
+       "z": -18764.4
+      },
+      {
+       "id": "leafy1",
+       "name": {
+        "ru": "LEAFY",
+        "en": "LEAFY",
+        "he": "LEAFY"
+       },
+       "r": 10000,
+       "x": -16712.8,
+       "z": -26943.6
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 334 (Forbes Flatlands 2022 Sports Class), 2022-01-04, 74.24 км, speedrun"
+    },
+    {
+     "id": "fb230119",
+     "name": {
+      "ru": "Forbes 2023 · TOMING — YNRM",
+      "en": "Forbes 2023 · TOMING — YNRM",
+      "he": "Forbes 2023 · TOMING — YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 3000,
+       "x": 27574.5,
+       "z": -87786.9
+      },
+      {
+       "id": "ynrm1",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 365 (Forbes Flatlands 2023), 2023-01-19, 130.89 км, speedrun-interval"
+    },
+    {
+     "id": "fb230123",
+     "name": {
+      "ru": "Forbes 2023 · TRUND — EUGOWR — BMIA",
+      "en": "Forbes 2023 · TRUND — EUGOWR — BMIA",
+      "he": "Forbes 2023 · TRUND — EUGOWR — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "trund0",
+       "name": {
+        "ru": "TRUND",
+        "en": "TRUND",
+        "he": "TRUND"
+       },
+       "r": 10000,
+       "x": -20483.1,
+       "z": -46684.3
+      },
+      {
+       "id": "eugowr1",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 5000,
+       "x": 38616.6,
+       "z": 8812.7
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 1000,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 365 (Forbes Flatlands 2023), 2023-01-23, 174.47 км, speedrun-interval"
+    },
+    {
+     "id": "fb230119s",
+     "name": {
+      "ru": "Forbes 2023 · PEAKHI",
+      "en": "Forbes 2023 · PEAKHI",
+      "he": "Forbes 2023 · PEAKHI"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "peakhi0",
+       "name": {
+        "ru": "PEAKHI",
+        "en": "PEAKHI",
+        "he": "PEAKHI"
+       },
+       "r": 3000,
+       "x": 26136.1,
+       "z": -69772.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-19, 74.32 км, speedrun"
+    },
+    {
+     "id": "fb230120s",
+     "name": {
+      "ru": "Forbes 2023 · CARAGA",
+      "en": "Forbes 2023 · CARAGA",
+      "he": "Forbes 2023 · CARAGA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "caraga0",
+       "name": {
+        "ru": "CARAGA",
+        "en": "CARAGA",
+        "he": "CARAGA"
+       },
+       "r": 2000,
+       "x": -17724.4,
+       "z": 52647.6
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-20, 56.12 км, speedrun"
+    },
+    {
+     "id": "fb230124s",
+     "name": {
+      "ru": "Forbes 2023 · GOOLOO",
+      "en": "Forbes 2023 · GOOLOO",
+      "he": "Forbes 2023 · GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "gooloo0",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 3000,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-24, 53.04 км, speedrun"
+    },
+    {
+     "id": "fb230125s",
+     "name": {
+      "ru": "Forbes 2023 · EUGOWR",
+      "en": "Forbes 2023 · EUGOWR",
+      "he": "Forbes 2023 · EUGOWR"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "eugowr0",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 3000,
+       "x": 38616.6,
+       "z": 8812.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 366 (Forbes Flatlands 2023 Sports Class), 2023-01-25, 39.41 км, speedrun"
+    },
+    {
+     "id": "fb240118",
+     "name": {
+      "ru": "Forbes 2024 · TOMING",
+      "en": "Forbes 2024 · TOMING",
+      "he": "Forbes 2024 · TOMING"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 3000,
+       "x": 27574.5,
+       "z": -87786.9
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-18, 91.89 км, speedrun-interval"
+    },
+    {
+     "id": "fb240119",
+     "name": {
+      "ru": "Forbes 2024 · ALEC — YNRM",
+      "en": "Forbes 2024 · ALEC — YNRM",
+      "he": "Forbes 2024 · ALEC — YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 6000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "ynrm1",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-19, 135.39 км, speedrun-interval"
+    },
+    {
+     "id": "fb240120",
+     "name": {
+      "ru": "Forbes 2024 · HENRY — CANOWI — GOOLOO",
+      "en": "Forbes 2024 · HENRY — CANOWI — GOOLOO",
+      "he": "Forbes 2024 · HENRY — CANOWI — GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "henry0",
+       "name": {
+        "ru": "HENRY",
+        "en": "HENRY",
+        "he": "HENRY"
+       },
+       "r": 4000,
+       "x": 14618.9,
+       "z": 33699.6
+      },
+      {
+       "id": "canowi1",
+       "name": {
+        "ru": "CANOWI",
+        "en": "CANOWI",
+        "he": "CANOWI"
+       },
+       "r": 1000,
+       "x": 68940.4,
+       "z": 21427.0
+      },
+      {
+       "id": "gooloo2",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 500,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-20, 117.94 км, speedrun-interval"
+    },
+    {
+     "id": "fb240122",
+     "name": {
+      "ru": "Forbes 2024 · ALEC — BILLA — YNRM",
+      "en": "Forbes 2024 · ALEC — BILLA — YNRM",
+      "he": "Forbes 2024 · ALEC — BILLA — YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 3000,
+       "x": 31036.1,
+       "z": -51195.8
+      },
+      {
+       "id": "billa1",
+       "name": {
+        "ru": "BILLA",
+        "en": "BILLA",
+        "he": "BILLA"
+       },
+       "r": 10000,
+       "x": -16299.0,
+       "z": -73089.4
+      },
+      {
+       "id": "ynrm2",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 396 (Forbes Flatlands 2024), 2024-01-22, 181.68 км, speedrun-interval"
+    },
+    {
+     "id": "fb240118s",
+     "name": {
+      "ru": "Forbes 2024 · ALEC",
+      "en": "Forbes 2024 · ALEC",
+      "he": "Forbes 2024 · ALEC"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "alec0",
+       "name": {
+        "ru": "ALEC",
+        "en": "ALEC",
+        "he": "ALEC"
+       },
+       "r": 3000,
+       "x": 31036.1,
+       "z": -51195.8
+      }
+     ],
+     "finish": null,
+     "src": "airScore 398 (Forbes Flatlands 2024 Sports Class), 2024-01-18, 59.61 км, speedrun"
+    },
+    {
+     "id": "fb250114",
+     "name": {
+      "ru": "Forbes 2025 · SASHA — FIELDS — GOOLOO",
+      "en": "Forbes 2025 · SASHA — FIELDS — GOOLOO",
+      "he": "Forbes 2025 · SASHA — FIELDS — GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 5000,
+       "x": 13100.6,
+       "z": 58106.6
+      },
+      {
+       "id": "fields1",
+       "name": {
+        "ru": "FIELDS",
+        "en": "FIELDS",
+        "he": "FIELDS"
+       },
+       "r": 5000,
+       "x": 34808.2,
+       "z": 17736.1
+      },
+      {
+       "id": "gooloo2",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 400,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-14, 120.67 км, speedrun-interval"
+    },
+    {
+     "id": "fb250116",
+     "name": {
+      "ru": "Forbes 2025 · YNRM",
+      "en": "Forbes 2025 · YNRM",
+      "he": "Forbes 2025 · YNRM"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "ynrm0",
+       "name": {
+        "ru": "YNRM",
+        "en": "YNRM",
+        "he": "YNRM"
+       },
+       "r": 3000,
+       "x": 27402.5,
+       "z": -126670.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-16, 129.61 км, speedrun"
+    },
+    {
+     "id": "fb250119",
+     "name": {
+      "ru": "Forbes 2025 · TRANG",
+      "en": "Forbes 2025 · TRANG",
+      "he": "Forbes 2025 · TRANG"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "trang0",
+       "name": {
+        "ru": "TRANG",
+        "en": "TRANG",
+        "he": "TRANG"
+       },
+       "r": 3000,
+       "x": 6833.9,
+       "z": -152614.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-19, 152.87 км, speedrun-interval"
+    },
+    {
+     "id": "fb250120",
+     "name": {
+      "ru": "Forbes 2025 · TOMING — SKULLS — BMIA",
+      "en": "Forbes 2025 · TOMING — SKULLS — BMIA",
+      "he": "Forbes 2025 · TOMING — SKULLS — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "toming0",
+       "name": {
+        "ru": "TOMING",
+        "en": "TOMING",
+        "he": "TOMING"
+       },
+       "r": 10000,
+       "x": 27574.5,
+       "z": -87786.9
+      },
+      {
+       "id": "skulls1",
+       "name": {
+        "ru": "SKULLS",
+        "en": "SKULLS",
+        "he": "SKULLS"
+       },
+       "r": 5000,
+       "x": -34906.7,
+       "z": -44937.3
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-20, 225.14 км, speedrun-interval"
+    },
+    {
+     "id": "fb250121",
+     "name": {
+      "ru": "Forbes 2025 · SASHA — YPKS — BMIA",
+      "en": "Forbes 2025 · SASHA — YPKS — BMIA",
+      "he": "Forbes 2025 · SASHA — YPKS — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 7000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 10000,
+       "x": 13100.6,
+       "z": 58106.6
+      },
+      {
+       "id": "ypks1",
+       "name": {
+        "ru": "YPKS",
+        "en": "YPKS",
+        "he": "YPKS"
+       },
+       "r": 10000,
+       "x": 28746.0,
+       "z": -25279.4
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 400,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 434 (Forbes Flatlands 2025), 2025-01-21, 183.01 км, speedrun-interval"
+    },
+    {
+     "id": "fb250119s",
+     "name": {
+      "ru": "Forbes 2025 · MINES",
+      "en": "Forbes 2025 · MINES",
+      "he": "Forbes 2025 · MINES"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "mines0",
+       "name": {
+        "ru": "MINES",
+        "en": "MINES",
+        "he": "MINES"
+       },
+       "r": 2000,
+       "x": 5106.4,
+       "z": -50617.5
+      }
+     ],
+     "finish": null,
+     "src": "airScore 435 (Forbes Flatlands 2025 Sports Class), 2025-01-19, 50.66 км, speedrun"
+    },
+    {
+     "id": "fb250120s",
+     "name": {
+      "ru": "Forbes 2025 · BOGAN — TRUND",
+      "en": "Forbes 2025 · BOGAN — TRUND",
+      "he": "Forbes 2025 · BOGAN — TRUND"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "bogan0",
+       "name": {
+        "ru": "BOGAN",
+        "en": "BOGAN",
+        "he": "BOGAN"
+       },
+       "r": 2000,
+       "x": -1819.6,
+       "z": -25883.2
+      },
+      {
+       "id": "trund1",
+       "name": {
+        "ru": "TRUND",
+        "en": "TRUND",
+        "he": "TRUND"
+       },
+       "r": 3000,
+       "x": -20483.1,
+       "z": -46684.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 435 (Forbes Flatlands 2025 Sports Class), 2025-01-20, 53.76 км, speedrun"
+    },
+    {
+     "id": "fb250121s",
+     "name": {
+      "ru": "Forbes 2025 · EUGOWR — GOOLOO",
+      "en": "Forbes 2025 · EUGOWR — GOOLOO",
+      "he": "Forbes 2025 · EUGOWR — GOOLOO"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "eugowr0",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 5000,
+       "x": 38616.6,
+       "z": 8812.7
+      },
+      {
+       "id": "gooloo1",
+       "name": {
+        "ru": "GOOLOO",
+        "en": "GOOLOO",
+        "he": "GOOLOO"
+       },
+       "r": 2000,
+       "x": 44650.8,
+       "z": 28701.7
+      }
+     ],
+     "finish": null,
+     "src": "airScore 435 (Forbes Flatlands 2025 Sports Class), 2025-01-21, 60.25 км, speedrun"
+    },
+    {
+     "id": "fb260113s",
+     "name": {
+      "ru": "Forbes 2026 · SASHA — HENRY",
+      "en": "Forbes 2026 · SASHA — HENRY",
+      "he": "Forbes 2026 · SASHA — HENRY"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 5000,
+     "points": [
+      {
+       "id": "sasha0",
+       "name": {
+        "ru": "SASHA",
+        "en": "SASHA",
+        "he": "SASHA"
+       },
+       "r": 1000,
+       "x": 13100.6,
+       "z": 58106.6
+      },
+      {
+       "id": "henry1",
+       "name": {
+        "ru": "HENRY",
+        "en": "HENRY",
+        "he": "HENRY"
+       },
+       "r": 1000,
+       "x": 14618.9,
+       "z": 33699.6
+      }
+     ],
+     "finish": null,
+     "src": "airScore 463 (Forbes Flatlands 2026 Sports Class), 2026-01-13, 84.53 км, speedrun"
+    },
+    {
+     "id": "fb260116s",
+     "name": {
+      "ru": "Forbes 2026 · TRANG",
+      "en": "Forbes 2026 · TRANG",
+      "he": "Forbes 2026 · TRANG"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "trang0",
+       "name": {
+        "ru": "TRANG",
+        "en": "TRANG",
+        "he": "TRANG"
+       },
+       "r": 3000,
+       "x": 6833.9,
+       "z": -152614.2
+      }
+     ],
+     "finish": null,
+     "src": "airScore 463 (Forbes Flatlands 2026 Sports Class), 2026-01-16, 152.87 км, speedrun"
+    },
+    {
+     "id": "fb260120s",
+     "name": {
+      "ru": "Forbes 2026 · EUGOWR — FORRES — BMIA",
+      "en": "Forbes 2026 · EUGOWR — FORRES — BMIA",
+      "he": "Forbes 2026 · EUGOWR — FORRES — BMIA"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "sport": true,
+     "start": 10000,
+     "points": [
+      {
+       "id": "eugowr0",
+       "name": {
+        "ru": "EUGOWR",
+        "en": "EUGOWR",
+        "he": "EUGOWR"
+       },
+       "r": 5000,
+       "x": 38616.6,
+       "z": 8812.7
+      },
+      {
+       "id": "forres1",
+       "name": {
+        "ru": "FORRES",
+        "en": "FORRES",
+        "he": "FORRES"
+       },
+       "r": 1000,
+       "x": 20283.2,
+       "z": -3275.2
+      },
+      {
+       "id": "bmia2",
+       "name": {
+        "ru": "BMIA",
+        "en": "BMIA",
+        "he": "BMIA"
+       },
+       "r": 1000,
+       "x": 309.6,
+       "z": -337.3
+      }
+     ],
+     "finish": null,
+     "src": "airScore 463 (Forbes Flatlands 2026 Sports Class), 2026-01-20, 81.62 км, speedrun"
+    }
+   ],
+   "x": 907.5,
+   "z": -337.3,
+   "tow": {
+    "kind": "aerotow",
+    "x": -1720.1,
+    "z": -337.3,
+    "runway": 1200,
+    "grass": true,
+    "width": 40
+   },
+   "thermals": [
+    {
+     "x": 397.9,
+     "z": -381.5
+    },
+    {
+     "x": 99.5,
+     "z": -1158.8
+    },
+    {
+     "x": 1066.5,
+     "z": -757.4
+    }
+   ]
+  }
+ ],
+ "sources": "Copernicus DEM GLO-30 (© DLR/Airbus, Copernicus); Sentinel-2 cloudless 2016 by EOX (CC BY-SA 4.0); © OpenStreetMap contributors (ODbL)",
+ "thermal": {
+  "w": 1.3,
+  "r": 1.4,
+  "density": 0.6
+ },
+ "hotspots": [
+  {
+   "x": 100,
+   "z": -1159,
+   "k": 1.0
+  },
+  {
+   "x": 1067,
+   "z": -756,
+   "k": 1.0
+  },
+  {
+   "x": 1006,
+   "z": -1922,
+   "k": 0.94
+  },
+  {
+   "x": 676,
+   "z": 60,
+   "k": 0.89
+  },
+  {
+   "x": -307,
+   "z": -324,
+   "k": 0.84
+  },
+  {
+   "x": 1603,
+   "z": 435,
+   "k": 0.76
+  },
+  {
+   "x": 730,
+   "z": 1248,
+   "k": 0.72
+  },
+  {
+   "x": 1943,
+   "z": -1549,
+   "k": 0.68
+  },
+  {
+   "x": 23,
+   "z": -2330,
+   "k": 0.6
+  },
+  {
+   "x": -801,
+   "z": -1502,
+   "k": 0.58
+  },
+  {
+   "x": -225,
+   "z": 838,
+   "k": 0.56
+  },
+  {
+   "x": 2099,
+   "z": -5940,
+   "k": 0.5
+  },
+  {
+   "x": 2008,
+   "z": -3993,
+   "k": 0.5
+  },
+  {
+   "x": 2309,
+   "z": 1243,
+   "k": 0.5
+  },
+  {
+   "x": 2324,
+   "z": -2376,
+   "k": 0.46
+  },
+  {
+   "x": 1430,
+   "z": -2756,
+   "k": 0.46
+  },
+  {
+   "x": 1453,
+   "z": 2042,
+   "k": 0.44
+  },
+  {
+   "x": 928,
+   "z": -4779,
+   "k": 0.43
+  },
+  {
+   "x": 2618,
+   "z": 40,
+   "k": 0.4
+  },
+  {
+   "x": 3158,
+   "z": -1525,
+   "k": 0.4
+  },
+  {
+   "x": 67,
+   "z": -5964,
+   "k": 0.39
+  },
+  {
+   "x": -1420,
+   "z": -289,
+   "k": 0.38
+  },
+  {
+   "x": 4112,
+   "z": 6055,
+   "k": 0.38
+  },
+  {
+   "x": 312,
+   "z": -7186,
+   "k": 0.38
+  },
+  {
+   "x": 1066,
+   "z": -9150,
+   "k": 0.38
+  },
+  {
+   "x": 1106,
+   "z": -6347,
+   "k": 0.37
+  },
+  {
+   "x": -1978,
+   "z": 8323,
+   "k": 0.37
+  },
+  {
+   "x": -149,
+   "z": -4703,
+   "k": 0.37
+  },
+  {
+   "x": 3104,
+   "z": 2051,
+   "k": 0.37
+  },
+  {
+   "x": 27156,
+   "z": -58684,
+   "k": 0.37
+  },
+  {
+   "x": 451,
+   "z": -3150,
+   "k": 0.36
+  },
+  {
+   "x": 10922,
+   "z": -30033,
+   "k": 0.36
+  },
+  {
+   "x": 10440,
+   "z": -23100,
+   "k": 0.35
+  },
+  {
+   "x": 2775,
+   "z": -11605,
+   "k": 0.35
+  },
+  {
+   "x": 2969,
+   "z": -8382,
+   "k": 0.35
+  },
+  {
+   "x": 22727,
+   "z": -46800,
+   "k": 0.35
+  }
+ ],
+ "hotspotsSource": "866 IGC tracks of past competitions (Airtribune, airScore), climbs on 400 m grid",
+ "bld": {
+  "n": 6669,
+  "q": 8
+ }
+}
