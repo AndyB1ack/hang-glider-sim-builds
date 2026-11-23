@@ -1,0 +1,1566 @@
+{
+ "id": "ager",
+ "origin": [
+  42.13,
+  0.87
+ ],
+ "k": [
+  82557.66213014266,
+  110574
+ ],
+ "height": "m = (R*256+G)/10 - 500; B = класс маски",
+ "classes": {
+  "own": [
+   1,
+   4,
+   5,
+   6
+  ],
+  "sea": 3,
+  "closed": [
+   0,
+   2
+  ]
+ },
+ "base": {
+  "x0": -66871.70632541557,
+  "z0": -54181.259999999435,
+  "cell": 60.0,
+  "w": 2203,
+  "h": 1770,
+  "png": "base.png",
+  "jpg": "base.jpg"
+ },
+ "details": [
+  {
+   "x0": -14874.0,
+   "z0": 4752.0,
+   "cell": 30.0,
+   "w": 305,
+   "h": 408,
+   "png": "detail-0.png",
+   "jpg": "detail-0.jpg"
+  },
+  {
+   "x0": -37592.0,
+   "z0": -48275.0,
+   "cell": 30.0,
+   "w": 301,
+   "h": 301,
+   "png": "detail-1.png",
+   "jpg": "detail-1.jpg"
+  },
+  {
+   "x0": 7714.0,
+   "z0": 9561.0,
+   "cell": 30.0,
+   "w": 353,
+   "h": 323,
+   "png": "detail-2.png",
+   "jpg": "detail-2.jpg"
+  },
+  {
+   "x0": 31001.0,
+   "z0": -13120.0,
+   "cell": 30.0,
+   "w": 301,
+   "h": 301,
+   "png": "detail-3.png",
+   "jpg": "detail-3.jpg"
+  }
+ ],
+ "sites": [
+  {
+   "id": "coll-ares",
+   "name": {
+    "ru": "Коль-д'Арес (Àger)",
+    "en": "Coll d'Ares (Àger)",
+    "he": "קול ד׳ארס (אז׳ר)"
+   },
+   "face": 185,
+   "hg": true,
+   "notes": "Главный старт дельтапланов на всех соревнованиях в Àger (Open 2017, чемпионаты Испании 2020–2023, German Open 2022, British Open 2023, ЧМ 2025): 1560 м, на юг, 960 м над долиной. При восточном — ротор, тогда Sant Alís. Посадка — кемпинг Àger (606 м).",
+   "wind": "термический южный (юго-запад — юго-восток); северный слабый — ещё летаем",
+   "x": -10251.2,
+   "z": 9252.8,
+   "thermals": [
+    {
+     "x": -9525.5,
+     "z": 9730.5
+    },
+    {
+     "x": -9120.1,
+     "z": 10056.7
+    },
+    {
+     "x": -8335.0,
+     "z": 10091.0
+    }
+   ],
+   "landings": [
+    {
+     "id": "b42061",
+     "name": {
+      "ru": "кемпинг Àger (главная посадка)",
+      "en": "Camping Àger (main LZ)",
+      "he": "קמפינג אז׳ר (נחיתה ראשית)"
+     },
+     "x": -8472.1,
+     "z": 13895.8
+    },
+    {
+     "id": "g01064",
+     "name": {
+      "ru": "поле Агульо",
+      "en": "Agulló field",
+      "he": "שדה אגוליו"
+     },
+     "x": -11898.2,
+     "z": 13371.7
+    },
+    {
+     "id": "g10050",
+     "name": {
+      "ru": "финиш: пляж водохранилища Сант-Антони",
+      "en": "goal: Sant Antoni reservoir beach",
+      "he": "סיום: חוף מאגר סנט אנטוני"
+     },
+     "x": 8596.7,
+     "z": -9843.3
+    },
+    {
+     "id": "g03047",
+     "name": {
+      "ru": "финиш: Виламитжана",
+      "en": "goal: Vilamitjana",
+      "he": "סיום: וילמיטחנה"
+     },
+     "x": 6895.2,
+     "z": 116.1
+    },
+    {
+     "id": "g12053",
+     "name": {
+      "ru": "финиш: Органья",
+      "en": "goal: Organyà",
+      "he": "סיום: אורגניה"
+     },
+     "x": 38106.1,
+     "z": -8948.8
+    },
+    {
+     "id": "g00048",
+     "name": {
+      "ru": "финиш: Ноу-Виламитжана",
+      "en": "goal: Nou Vilamitjana",
+      "he": "סיום: נואו וילמיטחנה"
+     },
+     "x": 6262.0,
+     "z": -1623.2
+    }
+   ],
+   "tasks": [
+    {
+     "id": "ag2021",
+     "name": {
+      "ru": "Чемпионат Испании 2021 · задание из треков",
+      "en": "Spanish Champs 2021 · task from tracks",
+      "he": "אליפות ספרד 2021 · משימה מהמסלולים"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "comp": true,
+     "points": [
+      {
+       "id": "b03038",
+       "name": {
+        "ru": "Estacio Ager",
+        "en": "Estacio Ager",
+        "he": "Estacio Ager"
+       },
+       "r": 400,
+       "x": -1552.1,
+       "z": 13647.0
+      },
+      {
+       "id": "b02070",
+       "name": {
+        "ru": "Corca",
+        "en": "Corca",
+        "he": "Corca"
+       },
+       "r": 400,
+       "x": -15153.5,
+       "z": 11029.8
+      },
+      {
+       "id": "b07091",
+       "name": {
+        "ru": "Ermita Vilanova",
+        "en": "Ermita Vilanova",
+        "he": "Ermita Vilanova"
+       },
+       "r": 400,
+       "x": 12251.6,
+       "z": 14070.5
+      },
+      {
+       "id": "b16070",
+       "name": {
+        "ru": "Talarn",
+        "en": "Talarn",
+        "he": "Talarn"
+       },
+       "r": 400,
+       "x": 858.6,
+       "z": -7411.8
+      },
+      {
+       "id": "b17066",
+       "name": {
+        "ru": "Isona",
+        "en": "Isona",
+        "he": "Isona"
+       },
+       "r": 400,
+       "x": 14505.4,
+       "z": 1299.2
+      }
+     ],
+     "finish": "g10050",
+     "src": "объявлено в IGC-треках пилотов, чемпионат Испании 2021 (Airtribune)"
+    },
+    {
+     "id": "ag1",
+     "name": {
+      "ru": "К озеру через Исону",
+      "en": "To the lake via Isona",
+      "he": "לאגם דרך איסונה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "comp": true,
+     "points": [
+      {
+       "id": "b06087",
+       "name": {
+        "ru": "Castell de Mur",
+        "en": "Castell de Mur",
+        "he": "Castell de Mur"
+       },
+       "r": 400,
+       "x": -1096.4,
+       "z": 2731.2
+      },
+      {
+       "id": "b17066",
+       "name": {
+        "ru": "Isona",
+        "en": "Isona",
+        "he": "Isona"
+       },
+       "r": 400,
+       "x": 14505.4,
+       "z": 1299.2
+      },
+      {
+       "id": "b18095",
+       "name": {
+        "ru": "Abella",
+        "en": "Abella",
+        "he": "Abella"
+       },
+       "r": 400,
+       "x": 18374.9,
+       "z": -3508.5
+      },
+      {
+       "id": "b16070",
+       "name": {
+        "ru": "Talarn",
+        "en": "Talarn",
+        "he": "Talarn"
+       },
+       "r": 400,
+       "x": 858.6,
+       "z": -7411.8
+      }
+     ],
+     "finish": "g10050"
+    },
+    {
+     "id": "ag2",
+     "name": {
+      "ru": "Запад: Бенабарре — Тальярн",
+      "en": "West: Benabarre — Talarn",
+      "he": "מערב: בנבארה — טלארן"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "comp": true,
+     "points": [
+      {
+       "id": "b13075",
+       "name": {
+        "ru": "Benabarre",
+        "en": "Benabarre",
+        "he": "Benabarre"
+       },
+       "r": 400,
+       "x": -32146.3,
+       "z": 2546.5
+      },
+      {
+       "id": "b15052",
+       "name": {
+        "ru": "Pont de Montanyana",
+        "en": "Pont de Montanyana",
+        "he": "Pont de Montanyana"
+       },
+       "r": 400,
+       "x": -14238.7,
+       "z": -1868.7
+      },
+      {
+       "id": "b16070",
+       "name": {
+        "ru": "Talarn",
+        "en": "Talarn",
+        "he": "Talarn"
+       },
+       "r": 400,
+       "x": 858.6,
+       "z": -7411.8
+      }
+     ],
+     "finish": "g03047"
+    },
+    {
+     "id": "ag3",
+     "name": {
+      "ru": "Восток: Понтс — Олиана — Органья",
+      "en": "East: Ponts — Oliana — Organyà",
+      "he": "מזרח: פונטס — אוליאנה — אורגניה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "comp": true,
+     "points": [
+      {
+       "id": "b07091",
+       "name": {
+        "ru": "Ermita Vilanova",
+        "en": "Ermita Vilanova",
+        "he": "Ermita Vilanova"
+       },
+       "r": 400,
+       "x": 12251.6,
+       "z": 14070.5
+      },
+      {
+       "id": "b10036",
+       "name": {
+        "ru": "Ponts",
+        "en": "Ponts",
+        "he": "Ponts"
+       },
+       "r": 400,
+       "x": 26173.3,
+       "z": 23604.2
+      },
+      {
+       "id": "b23046",
+       "name": {
+        "ru": "Oliana",
+        "en": "Oliana",
+        "he": "Oliana"
+       },
+       "r": 400,
+       "x": 34928.5,
+       "z": 4447.3
+      }
+     ],
+     "finish": "g12053"
+    },
+    {
+     "id": "ag4",
+     "name": {
+      "ru": "Север: Арен — Ла-Побла",
+      "en": "North: Arén — La Pobla",
+      "he": "צפון: ארן — לה פובלה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "comp": true,
+     "points": [
+      {
+       "id": "b14066",
+       "name": {
+        "ru": "Tolva",
+        "en": "Tolva",
+        "he": "Tolva"
+       },
+       "r": 400,
+       "x": -24768.9,
+       "z": 1650.9
+      },
+      {
+       "id": "b30063",
+       "name": {
+        "ru": "Aren",
+        "en": "Aren",
+        "he": "Aren"
+       },
+       "r": 400,
+       "x": -11419.4,
+       "z": -13664.7
+      },
+      {
+       "id": "b29052",
+       "name": {
+        "ru": "La Pobla de Segur",
+        "en": "La Pobla de Segur",
+        "he": "La Pobla de Segur"
+       },
+       "r": 400,
+       "x": 8057.6,
+       "z": -12944.9
+      },
+      {
+       "id": "b19087",
+       "name": {
+        "ru": "Castell Orcau",
+        "en": "Castell Orcau",
+        "he": "Castell Orcau"
+       },
+       "r": 400,
+       "x": 9333.1,
+       "z": -3947.5
+      }
+     ],
+     "finish": "g00048"
+    },
+    {
+     "id": "ag5",
+     "name": {
+      "ru": "Через Бошольс в Органью",
+      "en": "Over Boixols to Organyà",
+      "he": "דרך בושולס לאורגניה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "comp": true,
+     "points": [
+      {
+       "id": "b06087",
+       "name": {
+        "ru": "Castell de Mur",
+        "en": "Castell de Mur",
+        "he": "Castell de Mur"
+       },
+       "r": 400,
+       "x": -1096.4,
+       "z": 2731.2
+      },
+      {
+       "id": "b21115",
+       "name": {
+        "ru": "Boixols",
+        "en": "Boixols",
+        "he": "Boixols"
+       },
+       "r": 400,
+       "x": 24191.9,
+       "z": -4474.9
+      },
+      {
+       "id": "b52052",
+       "name": {
+        "ru": "Coll de Nargo",
+        "en": "Coll de Nargo",
+        "he": "Coll de Nargo"
+       },
+       "r": 400,
+       "x": 37124.5,
+       "z": -5012.3
+      }
+     ],
+     "finish": "g12053"
+    },
+    {
+     "id": "ag6",
+     "name": {
+      "ru": "Юг: Балагер и обратно",
+      "en": "South: Balaguer and back",
+      "he": "דרום: בלגר וחזרה"
+     },
+     "kinds": [
+      "weak",
+      "medium"
+     ],
+     "comp": true,
+     "points": [
+      {
+       "id": "b04091",
+       "name": {
+        "ru": "Port Ager",
+        "en": "Port Ager",
+        "he": "Port Ager"
+       },
+       "r": 400,
+       "x": -9944.1,
+       "z": 16752.0
+      },
+      {
+       "id": "b47029",
+       "name": {
+        "ru": "Cementiri Balaguer",
+        "en": "Cementiri Balaguer",
+        "he": "Cementiri Balaguer"
+       },
+       "r": 400,
+       "x": -6792.8,
+       "z": 35966.4
+      },
+      {
+       "id": "b09043",
+       "name": {
+        "ru": "Cubells",
+        "en": "Cubells",
+        "he": "Cubells"
+       },
+       "r": 400,
+       "x": 7605.2,
+       "z": 30590.3
+      },
+      {
+       "id": "b50098",
+       "name": {
+        "ru": "S Vilanova",
+        "en": "S Vilanova",
+        "he": "S Vilanova"
+       },
+       "r": 400,
+       "x": 14004.3,
+       "z": 14564.8
+      }
+     ],
+     "finish": "b42061"
+    },
+    {
+     "id": "wc2025-t1",
+     "name": {
+      "ru": "ЧМ 2025 · задание 1: Sopeira — Oliana — Castell de Mur — Chiringuito Pobla",
+      "en": "Worlds 2025 · task 1: Sopeira — Oliana — Castell de Mur — Chiringuito Pobla",
+      "he": "אליפות העולם 2025 · משימה 1: Sopeira — Oliana — Castell de Mur — Chiringuito Pobla"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 2013,
+     "points": [
+      {
+       "id": "b36073-0",
+       "name": {
+        "ru": "Sopeira",
+        "en": "Sopeira",
+        "he": "Sopeira"
+       },
+       "r": 4000,
+       "x": -10178.5,
+       "z": -20655.2
+      },
+      {
+       "id": "b23046-1",
+       "name": {
+        "ru": "Oliana",
+        "en": "Oliana",
+        "he": "Oliana"
+       },
+       "r": 2000,
+       "real": {
+        "at": [
+         42.08979,
+         1.29308
+        ],
+        "r": 17000
+       },
+       "x": 21810.1,
+       "z": -2853.9
+      },
+      {
+       "id": "b06087-2",
+       "name": {
+        "ru": "Castell de Mur",
+        "en": "Castell de Mur",
+        "he": "Castell de Mur"
+       },
+       "r": 7000,
+       "x": -1096.4,
+       "z": 2731.2
+      },
+      {
+       "id": "g10050-3",
+       "name": {
+        "ru": "Chiringuito Pobla",
+        "en": "Chiringuito Pobla",
+        "he": "Chiringuito Pobla"
+       },
+       "r": 400,
+       "real": {
+        "at": [
+         42.21902,
+         0.97414
+        ],
+        "r": 1000
+       },
+       "x": 8597.6,
+       "z": -9843.3
+      }
+     ],
+     "finish": null,
+     "src": "CIVL hg-worlds-2025 task 1 (класс 1), 2025-07-15, 81.526 км, старт 16:00",
+     "startReal": {
+      "at": [
+       41.77518,
+       0.75287
+      ],
+      "r": 32000,
+      "enter": false
+     }
+    },
+    {
+     "id": "wc2025-t2",
+     "name": {
+      "ru": "ЧМ 2025 · задание 2: Sopeira — Baldomar — Calaf aerodrome",
+      "en": "Worlds 2025 · task 2: Sopeira — Baldomar — Calaf aerodrome",
+      "he": "אליפות העולם 2025 · משימה 2: Sopeira — Baldomar — Calaf aerodrome"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 2013,
+     "points": [
+      {
+       "id": "b36073-0",
+       "name": {
+        "ru": "Sopeira",
+        "en": "Sopeira",
+        "he": "Sopeira"
+       },
+       "r": 2000,
+       "real": {
+        "at": [
+         42.3168,
+         0.74671
+        ],
+        "r": 10000
+       },
+       "x": -10198.3,
+       "z": -12655.2
+      },
+      {
+       "id": "b51032-1",
+       "name": {
+        "ru": "Baldomar",
+        "en": "Baldomar",
+        "he": "Baldomar"
+       },
+       "r": 2000,
+       "real": {
+        "at": [
+         41.91795,
+         1.01877
+        ],
+        "r": 12000
+       },
+       "x": 6997.6,
+       "z": 14960.7
+      },
+      {
+       "id": "g05072-2",
+       "name": {
+        "ru": "Calaf aerodrome",
+        "en": "Calaf aerodrome",
+        "he": "Calaf aerodrome"
+       },
+       "r": 400,
+       "real": {
+        "at": [
+         41.74404,
+         1.55894
+        ],
+        "r": 1000
+       },
+       "x": 56877.3,
+       "z": 42677.1
+      }
+     ],
+     "finish": null,
+     "src": "CIVL hg-worlds-2025 task 2 (класс 1), 2025-07-16, 104.455 км, старт 15:30",
+     "startReal": {
+      "at": [
+       41.77518,
+       0.75287
+      ],
+      "r": 32000,
+      "enter": false
+     }
+    },
+    {
+     "id": "wc2025-t3",
+     "name": {
+      "ru": "ЧМ 2025 · задание 3: Pont de Montanyana — Sopeira — Antena Boixols — Castell de Mur — Abella — Gol Vilamitjana Canal — Chiringuito Pobla",
+      "en": "Worlds 2025 · task 3: Pont de Montanyana — Sopeira — Antena Boixols — Castell de Mur — Abella — Gol Vilamitjana Canal — Chiringuito Pobla",
+      "he": "אליפות העולם 2025 · משימה 3: Pont de Montanyana — Sopeira — Antena Boixols — Castell de Mur — Abella — Gol Vilamitjana Canal — Chiringuito Pobla"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 2013,
+     "points": [
+      {
+       "id": "b15052-0",
+       "name": {
+        "ru": "Pont de Montanyana",
+        "en": "Pont de Montanyana",
+        "he": "Pont de Montanyana"
+       },
+       "r": 3000,
+       "x": -14238.7,
+       "z": -1867.6
+      },
+      {
+       "id": "b36073-1",
+       "name": {
+        "ru": "Sopeira",
+        "en": "Sopeira",
+        "he": "Sopeira"
+       },
+       "r": 3000,
+       "x": -10178.5,
+       "z": -20655.2
+      },
+      {
+       "id": "b40166-2",
+       "name": {
+        "ru": "Antena Boixols",
+        "en": "Antena Boixols",
+        "he": "Antena Boixols"
+       },
+       "r": 2000,
+       "x": 26363.1,
+       "z": -7174.0
+      },
+      {
+       "id": "b06087-3",
+       "name": {
+        "ru": "Castell de Mur",
+        "en": "Castell de Mur",
+        "he": "Castell de Mur"
+       },
+       "r": 6000,
+       "x": -1096.4,
+       "z": 2731.2
+      },
+      {
+       "id": "b18095-4",
+       "name": {
+        "ru": "Abella",
+        "en": "Abella",
+        "he": "Abella"
+       },
+       "r": 2000,
+       "x": 18374.9,
+       "z": -3508.5
+      },
+      {
+       "id": "p29040-5",
+       "name": {
+        "ru": "Gol Vilamitjana Canal",
+        "en": "Gol Vilamitjana Canal",
+        "he": "Gol Vilamitjana Canal"
+       },
+       "r": 2000,
+       "x": 3512.8,
+       "z": -337.3
+      },
+      {
+       "id": "g10050-6",
+       "name": {
+        "ru": "Chiringuito Pobla",
+        "en": "Chiringuito Pobla",
+        "he": "Chiringuito Pobla"
+       },
+       "r": 400,
+       "real": {
+        "at": [
+         42.21902,
+         0.97414
+        ],
+        "r": 1000
+       },
+       "x": 8597.6,
+       "z": -9843.3
+      }
+     ],
+     "finish": null,
+     "src": "CIVL hg-worlds-2025 task 3 (класс 1), 2025-07-17, 116.429 км, старт 15:00",
+     "startReal": {
+      "at": [
+       41.77518,
+       0.75287
+      ],
+      "r": 32000,
+      "enter": false
+     }
+    },
+    {
+     "id": "wc2025-t4",
+     "name": {
+      "ru": "ЧМ 2025 · задание 4: Montsent de pallars — Ponts — Calaf aerodrome",
+      "en": "Worlds 2025 · task 4: Montsent de pallars — Ponts — Calaf aerodrome",
+      "he": "אליפות העולם 2025 · משימה 4: Montsent de pallars — Ponts — Calaf aerodrome"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 2700,
+     "points": [
+      {
+       "id": "p21285-0",
+       "name": {
+        "ru": "Montsent de pallars",
+        "en": "Montsent de pallars",
+        "he": "Montsent de pallars"
+       },
+       "r": 2000,
+       "real": {
+        "at": [
+         42.50299,
+         1.03136
+        ],
+        "r": 37000
+       },
+       "x": -1489.3,
+       "z": -9516.0
+      },
+      {
+       "id": "b10036-1",
+       "name": {
+        "ru": "Ponts",
+        "en": "Ponts",
+        "he": "Ponts"
+       },
+       "r": 3000,
+       "x": 26173.3,
+       "z": 23604.2
+      },
+      {
+       "id": "g05072-2",
+       "name": {
+        "ru": "Calaf aerodrome",
+        "en": "Calaf aerodrome",
+        "he": "Calaf aerodrome"
+       },
+       "r": 400,
+       "real": {
+        "at": [
+         41.74404,
+         1.55894
+        ],
+        "r": 1000
+       },
+       "x": 56877.3,
+       "z": 42677.1
+      }
+     ],
+     "finish": null,
+     "src": "CIVL hg-worlds-2025 task 4 (класс 1), 2025-07-20, 91.805 км, старт (вход в цилиндр) 14:45",
+     "startReal": {
+      "at": [
+       42.50299,
+       1.03136
+      ],
+      "r": 53000,
+      "enter": true
+     }
+    },
+    {
+     "id": "wc2025-t5",
+     "name": {
+      "ru": "ЧМ 2025 · задание 5: Campo — Olvan — Castell de Mur — Olvan — Nou Vilamitjana — Chiringuito Pobla",
+      "en": "Worlds 2025 · task 5: Campo — Olvan — Castell de Mur — Olvan — Nou Vilamitjana — Chiringuito Pobla",
+      "he": "אליפות העולם 2025 · משימה 5: Campo — Olvan — Castell de Mur — Olvan — Nou Vilamitjana — Chiringuito Pobla"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 3170,
+     "points": [
+      {
+       "id": "p10071-0",
+       "name": {
+        "ru": "Campo",
+        "en": "Campo",
+        "he": "Campo"
+       },
+       "r": 2000,
+       "real": {
+        "at": [
+         42.41098,
+         0.40438
+        ],
+        "r": 26000
+       },
+       "x": -24682.3,
+       "z": -11389.1
+      },
+      {
+       "id": "b62054-1",
+       "name": {
+        "ru": "Olvan",
+        "en": "Olvan",
+        "he": "Olvan"
+       },
+       "r": 2000,
+       "real": {
+        "at": [
+         42.0567,
+         1.90575
+        ],
+        "r": 66600
+       },
+       "x": 21882.7,
+       "z": -3151.4
+      },
+      {
+       "id": "b06087-2",
+       "name": {
+        "ru": "Castell de Mur",
+        "en": "Castell de Mur",
+        "he": "Castell de Mur"
+       },
+       "r": 5000,
+       "x": -1096.4,
+       "z": 2731.2
+      },
+      {
+       "id": "b62054-3",
+       "name": {
+        "ru": "Olvan",
+        "en": "Olvan",
+        "he": "Olvan"
+       },
+       "r": 2000,
+       "real": {
+        "at": [
+         42.0567,
+         1.90575
+        ],
+        "r": 66600
+       },
+       "x": 21082.8,
+       "z": 4107.8
+      },
+      {
+       "id": "g00048-4",
+       "name": {
+        "ru": "Nou Vilamitjana",
+        "en": "Nou Vilamitjana",
+        "he": "Nou Vilamitjana"
+       },
+       "r": 2000,
+       "x": 6261.2,
+       "z": -1624.3
+      },
+      {
+       "id": "g10050-5",
+       "name": {
+        "ru": "Chiringuito Pobla",
+        "en": "Chiringuito Pobla",
+        "he": "Chiringuito Pobla"
+       },
+       "r": 400,
+       "real": {
+        "at": [
+         42.21902,
+         0.97414
+        ],
+        "r": 1000
+       },
+       "x": 8597.6,
+       "z": -9843.3
+      }
+     ],
+     "finish": null,
+     "src": "CIVL hg-worlds-2025 task 5 (класс 1), 2025-07-22, 116.163 км, старт (вход в цилиндр) 14:30",
+     "startReal": {
+      "at": [
+       42.41098,
+       0.40438
+      ],
+      "r": 46000,
+      "enter": true
+     }
+    },
+    {
+     "id": "wc2025-t6",
+     "name": {
+      "ru": "ЧМ 2025 · задание 6: Laspunya — Nou Balaguer",
+      "en": "Worlds 2025 · task 6: Laspunya — Nou Balaguer",
+      "he": "אליפות העולם 2025 · משימה 6: Laspunya — Nou Balaguer"
+     },
+     "kinds": [
+      "weak",
+      "medium",
+      "strong"
+     ],
+     "comp": true,
+     "start": 5170,
+     "points": [
+      {
+       "id": "b43071-0",
+       "name": {
+        "ru": "Laspunya",
+        "en": "Laspunya",
+        "he": "Laspunya"
+       },
+       "r": 4000,
+       "x": -59011.4,
+       "z": -41319.3
+      },
+      {
+       "id": "g07028-1",
+       "name": {
+        "ru": "Nou Balaguer",
+        "en": "Nou Balaguer",
+        "he": "Nou Balaguer"
+       },
+       "r": 400,
+       "real": {
+        "at": [
+         41.77518,
+         0.75287
+        ],
+        "r": 1000
+       },
+       "x": -9670.0,
+       "z": 39233.9
+      }
+     ],
+     "finish": null,
+     "src": "CIVL hg-worlds-2025 task 6 (класс 1), 2025-07-25, 156.851 км, старт (вход в цилиндр) 14:00",
+     "startReal": {
+      "at": [
+       42.50368,
+       0.15521
+      ],
+      "r": 65000,
+      "enter": true
+     }
+    }
+   ]
+  }
+ ],
+ "sources": "Copernicus DEM GLO-30 (© DLR/Airbus, Copernicus); Sentinel-2 cloudless 2016 by EOX (CC BY-SA 4.0); © OpenStreetMap contributors (ODbL)",
+ "bld": {
+  "n": 111570,
+  "q": 4
+ },
+ "hotspots": [
+  {
+   "x": -9918,
+   "z": 9664,
+   "k": 1.0
+  },
+  {
+   "x": -8717,
+   "z": 10077,
+   "k": 0.86
+  },
+  {
+   "x": -11505,
+   "z": 8899,
+   "k": 0.63
+  },
+  {
+   "x": -11101,
+   "z": 10092,
+   "k": 0.55
+  },
+  {
+   "x": -7494,
+   "z": 10024,
+   "k": 0.51
+  },
+  {
+   "x": -4713,
+   "z": 10056,
+   "k": 0.51
+  },
+  {
+   "x": -11944,
+   "z": 10496,
+   "k": 0.44
+  },
+  {
+   "x": -12307,
+   "z": 9665,
+   "k": 0.42
+  },
+  {
+   "x": -6313,
+   "z": 10047,
+   "k": 0.42
+  },
+  {
+   "x": -6188,
+   "z": -3490,
+   "k": 0.42
+  },
+  {
+   "x": -9923,
+   "z": 10861,
+   "k": 0.41
+  },
+  {
+   "x": -5380,
+   "z": -7885,
+   "k": 0.41
+  },
+  {
+   "x": 17063,
+   "z": -4695,
+   "k": 0.38
+  },
+  {
+   "x": -6855,
+   "z": -18260,
+   "k": 0.37
+  },
+  {
+   "x": -8719,
+   "z": 11251,
+   "k": 0.37
+  },
+  {
+   "x": -8082,
+   "z": -11113,
+   "k": 0.37
+  },
+  {
+   "x": -7405,
+   "z": -2660,
+   "k": 0.36
+  },
+  {
+   "x": -6552,
+   "z": -7561,
+   "k": 0.35
+  },
+  {
+   "x": -3358,
+   "z": -11128,
+   "k": 0.34
+  },
+  {
+   "x": 7801,
+   "z": -3514,
+   "k": 0.33
+  },
+  {
+   "x": -3117,
+   "z": 9243,
+   "k": 0.33
+  },
+  {
+   "x": 8263,
+   "z": -4695,
+   "k": 0.33
+  },
+  {
+   "x": 6210,
+   "z": -3521,
+   "k": 0.32
+  },
+  {
+   "x": -7763,
+   "z": -7122,
+   "k": 0.32
+  },
+  {
+   "x": 11870,
+   "z": -5102,
+   "k": 0.32
+  },
+  {
+   "x": -5281,
+   "z": -11504,
+   "k": 0.31
+  },
+  {
+   "x": 16690,
+   "z": -5932,
+   "k": 0.31
+  },
+  {
+   "x": -11092,
+   "z": 7755,
+   "k": 0.31
+  },
+  {
+   "x": -12673,
+   "z": 8482,
+   "k": 0.3
+  },
+  {
+   "x": -9107,
+   "z": 8922,
+   "k": 0.3
+  },
+  {
+   "x": 25905,
+   "z": 20875,
+   "k": 0.3
+  },
+  {
+   "x": -6622,
+   "z": -4411,
+   "k": 0.29
+  },
+  {
+   "x": 23072,
+   "z": -6775,
+   "k": 0.29
+  },
+  {
+   "x": 10660,
+   "z": -5562,
+   "k": 0.28
+  },
+  {
+   "x": -11038,
+   "z": 1750,
+   "k": 0.28
+  },
+  {
+   "x": 17782,
+   "z": -3910,
+   "k": 0.28
+  },
+  {
+   "x": -6700,
+   "z": 10905,
+   "k": 0.27
+  },
+  {
+   "x": -9386,
+   "z": -6713,
+   "k": 0.27
+  },
+  {
+   "x": 14267,
+   "z": -5482,
+   "k": 0.27
+  },
+  {
+   "x": -14895,
+   "z": -10605,
+   "k": 0.27
+  },
+  {
+   "x": -13530,
+   "z": 9640,
+   "k": 0.27
+  },
+  {
+   "x": 8985,
+   "z": -5492,
+   "k": 0.27
+  },
+  {
+   "x": 38115,
+   "z": 28771,
+   "k": 0.26
+  },
+  {
+   "x": 14232,
+   "z": -2279,
+   "k": 0.26
+  },
+  {
+   "x": -5698,
+   "z": -10395,
+   "k": 0.26
+  },
+  {
+   "x": 29481,
+   "z": 22887,
+   "k": 0.26
+  },
+  {
+   "x": 16245,
+   "z": -4294,
+   "k": 0.26
+  },
+  {
+   "x": -8139,
+   "z": -9934,
+   "k": 0.26
+  },
+  {
+   "x": -3521,
+   "z": 10079,
+   "k": 0.26
+  },
+  {
+   "x": 2661,
+   "z": -9096,
+   "k": 0.25
+  },
+  {
+   "x": -11701,
+   "z": -302,
+   "k": 0.25
+  },
+  {
+   "x": -5617,
+   "z": -20754,
+   "k": 0.25
+  },
+  {
+   "x": 2573,
+   "z": 866,
+   "k": 0.25
+  },
+  {
+   "x": -5165,
+   "z": 10847,
+   "k": 0.25
+  },
+  {
+   "x": 2866,
+   "z": 12540,
+   "k": 0.25
+  },
+  {
+   "x": 5263,
+   "z": 12034,
+   "k": 0.24
+  },
+  {
+   "x": 15010,
+   "z": -1507,
+   "k": 0.24
+  },
+  {
+   "x": 13336,
+   "z": -3201,
+   "k": 0.24
+  },
+  {
+   "x": -5387,
+   "z": -3926,
+   "k": 0.24
+  },
+  {
+   "x": -7432,
+   "z": 2092,
+   "k": 0.24
+  },
+  {
+   "x": 51119,
+   "z": 38198,
+   "k": 0.24
+  },
+  {
+   "x": 20327,
+   "z": -7115,
+   "k": 0.24
+  },
+  {
+   "x": 1754,
+   "z": 1620,
+   "k": 0.24
+  },
+  {
+   "x": -17348,
+   "z": -12299,
+   "k": 0.24
+  },
+  {
+   "x": -7290,
+   "z": -11825,
+   "k": 0.24
+  },
+  {
+   "x": 39307,
+   "z": 28529,
+   "k": 0.24
+  },
+  {
+   "x": 10212,
+   "z": -2387,
+   "k": 0.24
+  },
+  {
+   "x": 7798,
+   "z": -1896,
+   "k": 0.24
+  },
+  {
+   "x": -13359,
+   "z": -7100,
+   "k": 0.24
+  },
+  {
+   "x": 7021,
+   "z": -2744,
+   "k": 0.24
+  },
+  {
+   "x": 9364,
+   "z": -2734,
+   "k": 0.24
+  },
+  {
+   "x": -9910,
+   "z": 6867,
+   "k": 0.24
+  },
+  {
+   "x": -8233,
+   "z": -2304,
+   "k": 0.24
+  },
+  {
+   "x": -10542,
+   "z": -5909,
+   "k": 0.24
+  },
+  {
+   "x": 39737,
+   "z": 30146,
+   "k": 0.23
+  },
+  {
+   "x": -11117,
+   "z": 3282,
+   "k": 0.23
+  },
+  {
+   "x": 13304,
+   "z": 8051,
+   "k": 0.23
+  },
+  {
+   "x": 46028,
+   "z": 34561,
+   "k": 0.23
+  },
+  {
+   "x": 29463,
+   "z": 21712,
+   "k": 0.23
+  },
+  {
+   "x": -19047,
+   "z": 3228,
+   "k": 0.23
+  },
+  {
+   "x": 12552,
+   "z": -1039,
+   "k": 0.23
+  },
+  {
+   "x": -4428,
+   "z": -12734,
+   "k": 0.23
+  },
+  {
+   "x": -6913,
+   "z": -10323,
+   "k": 0.23
+  },
+  {
+   "x": -16209,
+   "z": -12463,
+   "k": 0.23
+  },
+  {
+   "x": -6849,
+   "z": -21093,
+   "k": 0.22
+  },
+  {
+   "x": 14263,
+   "z": -3489,
+   "k": 0.22
+  },
+  {
+   "x": 9423,
+   "z": -4693,
+   "k": 0.22
+  },
+  {
+   "x": -6104,
+   "z": -18784,
+   "k": 0.22
+  },
+  {
+   "x": 3823,
+   "z": -4684,
+   "k": 0.22
+  },
+  {
+   "x": 34541,
+   "z": 26966,
+   "k": 0.22
+  },
+  {
+   "x": 23224,
+   "z": 16551,
+   "k": 0.22
+  },
+  {
+   "x": 13374,
+   "z": -1544,
+   "k": 0.22
+  },
+  {
+   "x": -21453,
+   "z": -4273,
+   "k": 0.22
+  }
+ ],
+ "hotspotsSource": "1921 IGC tracks of past competitions (Airtribune, airScore), climbs on 400 m grid"
+}
